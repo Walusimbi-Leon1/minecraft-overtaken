@@ -1,0 +1,2659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Minecraft Overtaken — A Missionary's Guide to Reclaiming the Blocky World</title>
+<meta name="description" content="Fifteen missions. Three tiers of difficulty. One world to take back. A missionary-style Minecraft guide with exact coordinates for every task.">
+<style>
+:root {
+  --bg: #0d1117; --panel: #161b22; --panel2: #1c2330; --ink: #e6edf3;
+  --muted: #8b949e; --green: #3fb950; --grass: #56d364; --gold: #e3b341;
+  --line: #30363d; --red: #f85149;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.65;
+}
+a { color: #58a6ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { display: flex; min-height: 100vh; }
+nav {
+  width: 300px; min-width: 300px; background: var(--panel); border-right: 1px solid var(--line);
+  padding: 22px 14px; position: sticky; top: 0; height: 100vh; overflow-y: auto;
+}
+nav h1 { font-size: 15px; margin: 0 0 4px; color: var(--gold); letter-spacing: .5px; }
+nav .sub { font-size: 11px; color: var(--muted); margin: 0 0 14px; }
+nav a {
+  display: block; padding: 7px 10px; border-radius: 8px; color: var(--ink);
+  font-size: 13px; margin-bottom: 2px; border-left: 3px solid transparent;
+}
+nav a:hover { background: var(--panel2); text-decoration: none; border-left-color: var(--green); }
+nav .tier { display: block; font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); }
+nav .mtitle { display: block; }
+main { flex: 1; max-width: 900px; margin: 0 auto; padding: 40px 32px 80px; }
+main h1 {
+  font-size: 34px; line-height: 1.15; margin: 0 0 6px; color: var(--grass);
+}
+main h2 {
+  margin-top: 64px; padding-bottom: 10px; border-bottom: 2px solid var(--line);
+  font-size: 26px; color: var(--gold);
+}
+main h3 { margin-top: 34px; font-size: 19px; color: var(--grass); }
+main h4 { margin-top: 26px; font-size: 16px; }
+main p, main li { font-size: 15.5px; }
+main blockquote {
+  margin: 22px 0; padding: 16px 22px; background: var(--panel);
+  border-left: 4px solid var(--gold); border-radius: 0 10px 10px 0;
+}
+main blockquote p { font-style: italic; color: #c9d1d9; }
+main table {
+  border-collapse: collapse; width: 100%; margin: 18px 0; font-size: 14px;
+  background: var(--panel); border-radius: 10px; overflow: hidden;
+}
+main th {
+  text-align: left; background: var(--panel2); color: var(--gold);
+  padding: 9px 12px; font-size: 12px; text-transform: uppercase; letter-spacing: .8px;
+}
+main td { padding: 8px 12px; border-top: 1px solid var(--line); }
+main tr:nth-child(even) td { background: rgba(255,255,255,.02); }
+main code {
+  background: var(--panel2); border: 1px solid var(--line); border-radius: 5px;
+  padding: 1px 6px; font-size: 13px; font-family: "SF Mono", Consolas, monospace; color: #79c0ff;
+}
+main ul { padding-left: 22px; }
+main li { margin: 5px 0; }
+main li::marker { color: var(--green); }
+hr { border: none; border-top: 1px solid var(--line); margin: 44px 0; }
+strong { color: #fff; }
+.missions { margin: 26px 0; }
+@media (max-width: 900px) {
+  .wrap { flex-direction: column; }
+  nav { width: 100%; min-width: 0; height: auto; position: static; border-right: none; border-bottom: 1px solid var(--line); }
+  main { padding: 24px 18px 60px; }
+  main h1 { font-size: 26px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+  <h1>MINECRAFT OVERTAKEN</h1>
+  <p class="sub">A Missionary's Guide to Reclaiming the Blocky World</p>
+  <a href="#how-to-use-this-book">How to Use This Book</a>
+<a href="#reading-the-coordinates">Reading the Coordinates</a>
+<a href="#mission-1"><span class="tier">Tier I · Easy</span><span class="mtitle"><b>Mission 1</b> — THE FIRST FOUNDATION</span></a>
+<a href="#mission-2"><span class="tier">Tier I · Easy</span><span class="mtitle"><b>Mission 2</b> — THE BREAD BASKET</span></a>
+<a href="#mission-3"><span class="tier">Tier I · Easy</span><span class="mtitle"><b>Mission 3</b> — THE LANTERN ROAD</span></a>
+<a href="#mission-4"><span class="tier">Tier I · Easy</span><span class="mtitle"><b>Mission 4</b> — THE WATCHTOWER</span></a>
+<a href="#mission-5"><span class="tier">Tier I · Easy</span><span class="mtitle"><b>Mission 5</b> — THE FIRST DESCENT</span></a>
+<a href="#mission-6"><span class="tier">Tier II · Normal</span><span class="mtitle"><b>Mission 6</b> — THE UNDERGROUND STRONGROOM</span></a>
+<a href="#mission-7"><span class="tier">Tier II · Normal</span><span class="mtitle"><b>Mission 7</b> — THE IRONWORKS</span></a>
+<a href="#mission-8"><span class="tier">Tier II · Normal</span><span class="mtitle"><b>Mission 8</b> — THE CHASM BRIDGE</span></a>
+<a href="#mission-9"><span class="tier">Tier II · Normal</span><span class="mtitle"><b>Mission 9</b> — THE GATE TO EMBER</span></a>
+<a href="#mission-10"><span class="tier">Tier II · Normal</span><span class="mtitle"><b>Mission 10</b> — THE REDSTONE RIVER</span></a>
+<a href="#mission-11"><span class="tier">Tier III · Hard</span><span class="mtitle"><b>Mission 11</b> — THE STRONGHOLD HUNT</span></a>
+<a href="#mission-12"><span class="tier">Tier III · Hard</span><span class="mtitle"><b>Mission 12</b> — THE END</span></a>
+<a href="#mission-13"><span class="tier">Tier III · Hard</span><span class="mtitle"><b>Mission 13</b> — THE SUNKEN PALACE</span></a>
+<a href="#mission-14"><span class="tier">Tier III · Hard</span><span class="mtitle"><b>Mission 14</b> — THE FLOATING CITY</span></a>
+<a href="#mission-15"><span class="tier">Tier III · Hard</span><span class="mtitle"><b>Mission 15</b> — THE BEACON OF OVERTAKING</span></a>
+<a href="#epilogue-the-overtaking">Epilogue</a>
+<a href="#appendix-a-reading-coordinates">Appendix A — Coordinates</a>
+<a href="#appendix-b-master-coordinate-table">Appendix B — Master Table</a>
+<a href="#appendix-c-the-supplies-ledger">Appendix C — Supplies</a>
+<a href="#appendix-d-glossary">Appendix D — Glossary</a>
+</nav>
+<main>
+<h1>MINECRAFT OVERTAKEN</h1>
+<h2>A Missionary&rsquo;s Guide to Reclaiming the Blocky World</h2>
+<p><em>Fifteen missions. Three tiers of difficulty. One world to take back.</em></p>
+<hr>
+<blockquote>
+<p><em>&ldquo;The Old Builders are gone. Their farms went wild, their lanterns died,
+and the night crept in where light once stood. The world has been
+overtaken — by shadow, by chaos, by the creatures that own the dark.
+But they left one thing behind: a map, a compass, and a commission.
+You are the missionary of the block. Your task is not merely to survive.
+Your task is to take the world back — one mission at a time.&rdquo;</em></p>
+<p>— from the Book of the First Light</p>
+</blockquote>
+<hr>
+<h2>HOW TO USE THIS BOOK</h2>
+<p>This is not a story you read. It is a mission log you complete.</p>
+<p>The book contains <strong>fifteen missions</strong>, organized in three tiers of
+difficulty:</p>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Missions</th>
+<th>Difficulty</th>
+<th>What you will do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tier I</td>
+<td>1–5</td>
+<td><strong>Easy</strong></td>
+<td>Build your first home, farm, road, tower, and mine</td>
+</tr>
+<tr>
+<td>Tier II</td>
+<td>6–10</td>
+<td><strong>Normal</strong></td>
+<td>Carve an underground base, smelt iron, bridge a chasm, enter the Nether, master redstone</td>
+</tr>
+<tr>
+<td>Tier III</td>
+<td>11–15</td>
+<td><strong>Hard</strong></td>
+<td>Hunt the stronghold, slay the dragon, raid the ocean monument, build a sky city, raise the Beacon of Overtaking</td>
+</tr>
+</tbody>
+</table>
+<p>Every mission follows the same format:</p>
+<ul>
+<li><strong>MISSION BRIEFING</strong> — what is happening in the world, and why it matters</li>
+<li><strong>OBJECTIVE</strong> — exactly what you must accomplish</li>
+<li><strong>SUPPLIES</strong> — the blocks and items you must gather, and how many</li>
+<li><strong>COORDINATES</strong> — exactly where in the world the mission takes place</li>
+<li><strong>THE PLAN</strong> — the step-by-step execution</li>
+<li><strong>SUCCESS CHECKLIST</strong> — how you will know the mission is complete</li>
+<li><strong>MISSIONARY NOTE</strong> — a short reflection from the field</li>
+</ul>
+<h3>Setting Up the World</h3>
+<p>Use these settings so the coordinates in this book match your world:</p>
+<ul>
+<li><strong>World name:</strong> Overtaken</li>
+<li><strong>Seed:</strong> <code>OVERTAKEN</code></li>
+<li><strong>Game mode:</strong> Survival</li>
+<li><strong>Difficulty:</strong> Normal (Easy if you are new, Hard if you are a veteran)</li>
+<li><strong>World type:</strong> Default</li>
+<li><strong>Cheats:</strong> Off. A missionary earns every block.</li>
+</ul>
+<h3>The Rules of the Mission Field</h3>
+<ol>
+<li>No creative mode. If a mission says collect 64 iron ore, you mine it.</li>
+<li>No teleporting. You walk, you climb, you swim — or you build the thing
+   that carries you.</li>
+<li>If you die, you return and finish. The world does not reset for you.</li>
+<li>A mission is only complete when every item on the success checklist is
+   checked.</li>
+</ol>
+<hr>
+<h2>READING THE COORDINATES</h2>
+<p>Every mission in this book gives you exact coordinates. Before you take a
+single step, learn to read them. This is the single most important skill
+in the book.</p>
+<p><strong>The three numbers are always in the same order: X, Y, Z.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Axis</th>
+<th>Meaning</th>
+<th>Positive (+)</th>
+<th>Negative (−)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>X</strong></td>
+<td>East / West</td>
+<td>East</td>
+<td>West</td>
+</tr>
+<tr>
+<td><strong>Y</strong></td>
+<td>Up / Down (height)</td>
+<td>Up</td>
+<td>Down</td>
+</tr>
+<tr>
+<td><strong>Z</strong></td>
+<td>South / North</td>
+<td>South</td>
+<td>North</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Sea level is Y = 63.</strong> This is your anchor. If a mission says Y = 64, you
+are one block above sea level — standing on the surface. If it says Y = 16,
+you are 47 blocks underground, near the diamond layer. If it says Y = 150,
+you are building in the sky.</p>
+<p>Here is how to read a pair of camps from an old mission log:</p>
+<table>
+<thead>
+<tr>
+<th>Camp</th>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Camp 1</td>
+<td>−185</td>
+<td>61</td>
+<td>−190</td>
+</tr>
+<tr>
+<td>Camp 2</td>
+<td>−189</td>
+<td>5</td>
+<td>−161</td>
+</tr>
+</tbody>
+</table>
+<p>Reading them:</p>
+<ul>
+<li>Camp 2 is <strong>4 blocks west</strong> of Camp 1 (X went −185 → −189, toward negative = west)</li>
+<li>Camp 2 is <strong>56 blocks lower</strong> (Y went 61 → 5 — that is a deep tunnel; Camp 1 sits just below the surface, Camp 2 crouches just above bedrock)</li>
+<li>Camp 2 is <strong>29 blocks north</strong> of Camp 1 (Z went −190 → −161, toward positive = south&hellip; wait — −161 is <em>more</em> positive than −190, so Camp 2 is actually <strong>29 blocks south</strong>)</li>
+</ul>
+<p><strong>Rule of thumb:</strong></p>
+<ul>
+<li><strong>X or Z changes → you are moving sideways</strong> (north / south / east / west)</li>
+<li><strong>Y changes → you are moving up or down</strong></li>
+<li>Y is your floor number. To find a place again: match X and Z first, then climb or dig until Y matches too.</li>
+</ul>
+<p><strong>The one exception:</strong> the Nether. Coordinates there are roughly one-eighth
+of the Overworld. This book gives you both sets when a mission crosses over.</p>
+<hr>
+<h1>TIER I — EASY</h1>
+<p><em>The first five missions stay near the surface. They teach you the rhythm
+of the missionary life: gather, build, light, plant, descend. Do not skip
+them. Even a veteran must learn the ground they stand on.</em></p>
+<hr>
+<h2>MISSION 1 — THE FIRST FOUNDATION</h2>
+<p><strong>Difficulty: Easy</strong></p>
+<h3>Mission Briefing</h3>
+<p>You stand at the world&rsquo;s heart — spawn, at (0, 63, 0). The grass is tall,
+the trees are wild, and nothing here belongs to anyone. The Old Builders
+left no shelter. Before you can reclaim anything, you must have a place
+to be safe when the sun goes down. A missionary without a home is a
+missionary who does not last the night.</p>
+<h3>Objective</h3>
+<p>Build a <strong>7×7 wooden house</strong> at the mission plot, with a door, a bed, four
+glass windows, and twelve torches. Sleep in it before dawn.</p>
+<h3>Supplies</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Oak logs</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Oak planks</td>
+<td>160</td>
+</tr>
+<tr>
+<td>Cobblestone</td>
+<td>96</td>
+</tr>
+<tr>
+<td>Glass</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Wooden door</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Bed</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Torches</td>
+<td>12</td>
+</tr>
+</tbody>
+</table>
+<h3>Coordinates</h3>
+<table>
+<thead>
+<tr>
+<th>Landmark</th>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Plot corner (southwest)</td>
+<td>24</td>
+<td>64</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Plot corner (northeast)</td>
+<td>30</td>
+<td>64</td>
+<td>18</td>
+</tr>
+<tr>
+<td>Front wall</td>
+<td>24</td>
+<td>64–67</td>
+<td>12–18</td>
+</tr>
+<tr>
+<td>Door position</td>
+<td>26</td>
+<td>64</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Roof level</td>
+<td>24–30</td>
+<td>68</td>
+<td>12–18</td>
+</tr>
+</tbody>
+</table>
+<p>The house occupies X 24–30 and Z 12–18 — a 7×7 footprint with a 5×5
+interior. Walls rise from Y 64 to Y 67. The roof caps it at Y 68.</p>
+<h3>The Plan</h3>
+<ol>
+<li><strong>Gather the wood.</strong> Fell oak trees until you have 64 logs. Turn them
+   into planks: 64 logs = 256 planks. You need 160 for the build and 96
+   for crafting tools and torches.</li>
+<li><strong>Mark the plot.</strong> Stand at (24, 64, 12). Lay a row of cobblestone
+   along Z 12 from X 24 to X 30. This is your front wall&rsquo;s foundation.</li>
+<li><strong>Raise the walls.</strong> Build the front wall at Z 12 from Y 64 to Y 67.
+   Leave a two-block gap at (26–27, 64, 12) for the door. Build the back
+   wall at Z 18, and the side walls at X 24 and X 30.</li>
+<li><strong>Add the windows.</strong> Place glass at (25, 66, 12), (27, 66, 12),
+   (29, 66, 12) on the front, and one more on the back wall at
+   (27, 66, 18). Four windows, four directions of light.</li>
+<li><strong>Roof it.</strong> Cap the top at Y 68 with oak planks, all the way across.</li>
+<li><strong>Furnish.</strong> Place the door in the gap. Put the bed against the back
+   wall at (28, 64, 17). Craft and place a crafting table and a furnace.</li>
+<li><strong>Light it.</strong> Place torches: one in each interior corner at Y 65, two
+   on the front wall outside, two on the back, and four around the roof
+   edge. Twelve torches total.</li>
+<li><strong>Sleep.</strong> Right-click the bed as night falls. This sets your spawn
+   point — the first claim in your new territory.</li>
+</ol>
+<h3>Success Checklist</h3>
+<ul>
+<li>[ ] Walls complete from Y 64 to Y 67 with no gaps</li>
+<li>[ ] Door closes and opens</li>
+<li>[ ] Four glass windows placed</li>
+<li>[ ] Bed placed and slept in</li>
+<li>[ ] Twelve torches burning</li>
+<li>[ ] No hostile mobs inside the house at dawn</li>
+</ul>
+<h3>Missionary Note</h3>
+<p><em>A house is the first act of claiming. Before you can bring light to the
+world, you need a place to keep your own. The Old Builders forgot this,
+and their light went out. Build small, build solid, build light — then
+move outward. The world is taken back one foundation at a time.</em></p>
+<hr>
+<h2>MISSION 2 — THE BREAD BASKET</h2>
+<p><strong>Difficulty: Easy</strong></p>
+<h3>Mission Briefing</h3>
+<p>A missionary marches on bread. The wild grass around the camp carries
+wheat seeds — the Old Builders&rsquo; farms are gone, but their grain survives
+in the tall grass, waiting to be gathered and planted again. This mission
+turns wild seed into a working farm: the first food supply of the
+reclamation.</p>
+<h3>Objective</h3>
+<p>Build a <strong>fenced 9×9 wheat farm</strong> at the mission field, plant <strong>32 wheat
+seeds</strong>, and harvest <strong>32 wheat</strong>. One water source must water the whole
+field.</p>
+<h3>Supplies</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wheat seeds</td>
+<td>32</td>
+</tr>
+<tr>
+<td>Hoe (wooden or stone)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Water bucket</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Fence</td>
+<td>28</td>
+</tr>
+<tr>
+<td>Fence gate</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Torches</td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
+<h3>Coordinates</h3>
+<table>
+<thead>
+<tr>
+<th>Landmark</th>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Field corner (northwest)</td>
+<td>−45</td>
+<td>63</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Field corner (southeast)</td>
+<td>−37</td>
+<td>63</td>
+<td>88</td>
+</tr>
+<tr>
+<td>Water channel</td>
+<td>−41</td>
+<td>63</td>
+<td>84</td>
+</tr>
+<tr>
+<td>Fence perimeter</td>
+<td>−46 to −36</td>
+<td>63</td>
+<td>79 to 89</td>
+</tr>
+<tr>
+<td>Gate</td>
+<td>−45</td>
+<td>63</td>
+<td>84</td>
+</tr>
+</tbody>
+</table>
+<p>The field spans X −45 to −37 and Z 80 to 88. A single water source at
+(−41, 63, 84) sits in the middle, hydrating all 80 farmland blocks around
+it.</p>
+<h3>The Plan</h3>
+<ol>
+<li><strong>Collect the seeds.</strong> Break tall grass until you have 32 wheat seeds.
+   (You may find more — keep them; you will need them.)</li>
+<li><strong>Till the field.</strong> With the hoe, till every block in the 9×9 area
+   except the center block at (−41, 63, 84).</li>
+<li><strong>Water it.</strong> Use the water bucket at the center. The water will flow
+   one block in every direction, hydrating the entire field. Cover the
+   source with a slab if you want to walk across without falling in.</li>
+<li><strong>Plant.</strong> Plant all 32 seeds in the tilled soil. If you have more
+   seeds, plant them too — a full field is a richer harvest.</li>
+<li><strong>Fence it.</strong> Ring the field with fence: 28 pieces, one block outside
+   the tilled edge. Place the fence gate on the west side at
+   (−45, 63, 84) so the field stays open to you and closed to mobs.</li>
+<li><strong>Light the edges.</strong> Place 8 torches on the fence corners and midpoint
+   posts so no mobs spawn on or near the field at night.</li>
+<li><strong>Wait and harvest.</strong> Wheat grows in stages. When it is golden and
+   tall, break it and collect the wheat. You need 32 in your inventory
+   to complete the mission — but replant the seeds you drop. A bread
+   basket is a cycle, not a one-time harvest.</li>
+</ol>
+<h3>Success Checklist</h3>
+<ul>
+<li>[ ] 32 wheat harvested and in inventory</li>
+<li>[ ] Field fully fenced with a working gate</li>
+<li>[ ] One water source hydrating the field</li>
+<li>[ ] 8 torches placed around the perimeter</li>
+<li>[ ] Seeds replanted for the next harvest</li>
+</ul>
+<h3>Missionary Note</h3>
+<p><em>The world will not feed you because you ask. It feeds you because you
+work. The Old Builders&rsquo; fields were overtaken by grass the moment they
+stopped tending them — that is the law of this world: whatever you do not
+tend, the wild takes back. A farm is a promise you renew every day.</em></p>
+<hr>
+<h2>MISSION 3 — THE LANTERN ROAD</h2>
+<p><strong>Difficulty: Easy</strong></p>
+<h3>Mission Briefing</h3>
+<p>The way from spawn to the eastern ridge is dark, and in the dark the
+world&rsquo;s creatures hunt. The Old Builders believed roads were for carts.
+The missionary knows better: roads are for light. A lit road is a line
+drawn through the night, a claim staked in torchlight from horizon to
+horizon.</p>
+<h3>Objective</h3>
+<p>Light a <strong>torch path</strong> from spawn (0, 63, 0) to the eastern ridge at
+(100, 64, 100), placing <strong>32 torches</strong> along the route. Then build a
+<strong>10-block-high torch tower</strong> at the ridge and light its crown.</p>
+<h3>Supplies</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Coal</td>
+<td>48</td>
+</tr>
+<tr>
+<td>Sticks</td>
+<td>48</td>
+</tr>
+<tr>
+<td>Cobblestone</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Stone slabs</td>
+<td>32</td>
+</tr>
+</tbody>
+</table>
+<p><em>(48 coal + 48 sticks = 48 torches. You will place 32 on the road, keep
+the rest for the tower and spares.)</em></p>
+<h3>Coordinates</h3>
+<table>
+<thead>
+<tr>
+<th>Landmark</th>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Path start</td>
+<td>0</td>
+<td>63</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Path end (ridge)</td>
+<td>100</td>
+<td>64</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Torch spacing</td>
+<td>every 3 blocks along the diagonal</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Tower base</td>
+<td>100</td>
+<td>64</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Tower crown</td>
+<td>100</td>
+<td>74</td>
+<td>100</td>
+</tr>
+</tbody>
+</table>
+<p>The path runs diagonally northeast: X and Z rise together, 0 → 100. Place
+a torch every 4 blocks: (4, 63, 4), (8, 63, 8), (12, 63, 12), and so on
+until (100, 64, 100).</p>
+<h3>The Plan</h3>
+<ol>
+<li><strong>Gather fuel and light.</strong> Mine 48 coal. Craft 48 sticks, then 48
+   torches. (You will need more later in the book — this is your first
+   torch run; it will not be your last.)</li>
+<li><strong>Pave the stepping stones.</strong> Lay cobblestone and slabs in short
+   stretches along the diagonal so the route is walkable. You do not
+   need a full road — a missionary builds for light, not for carts.</li>
+<li><strong>Plant the torches.</strong> Starting at (3, 63, 3), place a torch roughly
+   every three blocks along the diagonal — about 32 torches over the
+   run. Where the ground rises, put the torch on a cobblestone stub so
+   it never sits below your eye line.</li>
+<li><strong>Reach the ridge.</strong> The path ends at (100, 64, 100). From here you
+   can see back to spawn — which is exactly the point.</li>
+<li><strong>Build the tower.</strong> At (100, 64, 100), stack cobblestone to Y 74.
+   Place a torch on top of the crown and four more around the sides at
+   Y 73. This is the Lantern of the East: the first landmark of the
+   reclamation.</li>
+<li><strong>Check the gaps.</strong> Walk the path at night. No stretch of darkness may
+   exceed 8 blocks. Add torches where the light pools thin.</li>
+</ol>
+<h3>Success Checklist</h3>
+<ul>
+<li>[ ] 32 torches placed along the path at roughly 4-block intervals</li>
+<li>[ ] Path visible end to end at night from spawn</li>
+<li>[ ] Tower at (100, 64, 100) standing 10 blocks high</li>
+<li>[ ] Tower crown lit with 5 torches</li>
+<li>[ ] No dark gap longer than 8 blocks anywhere on the route</li>
+</ul>
+<h3>Missionary Note</h3>
+<p><em>Light is the first weapon of the missionary. Mobs do not respect your
+sword until they fear your torches. Every torch you plant is a small
+sermon: this ground is claimed, this ground is watched, this ground
+belongs to the light again.</em></p>
+<hr>
+<h2>MISSION 4 — THE WATCHTOWER</h2>
+<p><strong>Difficulty: Easy</strong></p>
+<h3>Mission Briefing</h3>
+<p>To the northwest, the forest opens into a plain that the Old Builders
+called the Quiet Field. It is not quiet anymore — it is overtaken. From
+the rise at (−120, −40) you can see the whole plain, and something else:
+the first true test of a builder. A tower that can see is a tower that
+can warn. The reclamation needs eyes.</p>
+<h3>Objective</h3>
+<p>Build a <strong>12-block-high watchtower</strong> at the mission site, with a working
+ladder, a fenced observation platform, and <strong>16 torches</strong>. From the top,
+you must be able to see the Lantern of the East at (100, 64, 100).</p>
+<h3>Supplies</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cobblestone</td>
+<td>192</td>
+</tr>
+<tr>
+<td>Oak planks</td>
+<td>96</td>
+</tr>
+<tr>
+<td>Ladders</td>
+<td>24</td>
+</tr>
+<tr>
+<td>Fence</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Glass</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Torches</td>
+<td>16</td>
+</tr>
+</tbody>
+</table>
+<h3>Coordinates</h3>
+<table>
+<thead>
+<tr>
+<th>Landmark</th>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tower footprint (southwest corner)</td>
+<td>−120</td>
+<td>64</td>
+<td>−40</td>
+</tr>
+<tr>
+<td>Tower footprint (northeast corner)</td>
+<td>−114</td>
+<td>64</td>
+<td>−34</td>
+</tr>
+<tr>
+<td>Base height</td>
+<td>−120 to −114</td>
+<td>64–65</td>
+<td>−40 to −34</td>
+</tr>
+<tr>
+<td>Wall tops</td>
+<td>−120 to −114</td>
+<td>76</td>
+<td>−40 to −34</td>
+</tr>
+<tr>
+<td>Observation platform</td>
+<td>−119 to −115</td>
+<td>76</td>
+<td>−39 to −35</td>
+</tr>
+<tr>
+<td>Ladder (north face)</td>
+<td>−117</td>
+<td>64–75</td>
+<td>−40</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>−120</td>
+<td>70</td>
+<td>−37, and −117</td>
+</tr>
+</tbody>
+</table>
+<p>The tower is a 7×7 hollow shaft. Its walls rise from Y 64 to Y 76 —
+12 blocks of stone against the sky.</p>
+<h3>The Plan</h3>
+<ol>
+<li><strong>Gather stone.</strong> Mine 192 cobblestone. A nearby hill should cover
+   most of it.</li>
+<li><strong>Lay the base.</strong> Build the 7×7 footprint two blocks high (Y 64–65).
+   Leave the inside hollow.</li>
+<li><strong>Raise the shaft.</strong> From the base, raise the four walls to Y 76 —
+   ten more blocks. Leave the ladder shaft open on the north face at
+   (−117, Z −40).</li>
+<li><strong>Windows.</strong> At Y 70, place glass at (−120, 70, −37) on the west wall
+   and (−117, 70, −40) on the north wall. Small windows, watchful eyes.</li>
+<li><strong>The ladder.</strong> Run ladders up the north face shaft from Y 64 to
+   Y 75 — 24 ladders, no gaps. Test the climb.</li>
+<li><strong>The platform.</strong> At Y 76, floor the top with oak planks. Ring it
+   with fence. Place torches in the four corners and along the fence —
+   16 torches total on the tower.</li>
+<li><strong>Look east.</strong> From the platform, face (100, 64, 100). If the night
+   is clear, the Lantern of the East answers your light with its own.</li>
+</ol>
+<h3>Success Checklist</h3>
+<ul>
+<li>[ ] Tower stands 12 blocks from base to platform</li>
+<li>[ ] Ladder climbs the full height without gaps</li>
+<li>[ ] Platform floored and fully fenced</li>
+<li>[ ] 16 torches placed</li>
+<li>[ ] Lantern of the East visible from the top</li>
+</ul>
+<h3>Missionary Note</h3>
+<p><em>The Watchtower teaches the second law of the mission field: see before
+you are seen. The creatures of the overtaken world ambush what they can
+surprise. A tower does not fight for you — it sees for you, and seeing
+is half the battle. Raise your eyes, and the night loses its advantage.</em></p>
+<hr>
+<h2>MISSION 5 — THE FIRST DESCENT</h2>
+<p><strong>Difficulty: Easy</strong></p>
+<h3>Mission Briefing</h3>
+<p>The surface can feed you and shelter you, but it cannot arm you. Iron
+waits below — and below is where the world keeps its oldest secrets and
+its darkest rooms. Every missionary must learn to go down. This mission
+teaches the descent: a proper shaft, a proper ladder, a proper light
+discipline, and the first real ore of the reclamation.</p>
+<h3>Objective</h3>
+<p>Dig a <strong>1×2 vertical shaft</strong> at the mission site down to <strong>Y 16</strong>, then
+branch-mine the tunnel at Y 16 and collect <strong>32 iron ore</strong>.</p>
+<h3>Supplies</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stone pickaxes</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Ladders</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Torches</td>
+<td>32</td>
+</tr>
+<tr>
+<td>Oak planks</td>
+<td>32</td>
+</tr>
+<tr>
+<td>Cooked food</td>
+<td>16</td>
+</tr>
+</tbody>
+</table>
+<h3>Coordinates</h3>
+<table>
+<thead>
+<tr>
+<th>Landmark</th>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shaft mouth</td>
+<td>50</td>
+<td>63</td>
+<td>−70</td>
+</tr>
+<tr>
+<td>Shaft bottom</td>
+<td>50</td>
+<td>16</td>
+<td>−70</td>
+</tr>
+<tr>
+<td>Branch tunnel</td>
+<td>50 → 70</td>
+<td>16</td>
+<td>−70</td>
+</tr>
+<tr>
+<td>Side branches</td>
+<td>50 → 70</td>
+<td>16</td>
+<td>−72 and −68</td>
+</tr>
+</tbody>
+</table>
+<p>The shaft drops 47 blocks straight down from (50, 63, −70) to
+(50, 16, −70). At the bottom, a branch tunnel runs east from X 50 to
+X 70 at Y 16, with side branches at Z −72 and Z −68.</p>
+<h3>The Plan</h3>
+<ol>
+<li><strong>Prepare.</strong> Craft 3 stone pickaxes (48 cobblestone + 3 sticks × 3),
+   40 ladders, and 32 torches. Eat before you descend — mining is hungry
+   work.</li>
+<li><strong>Dig the shaft.</strong> At (50, 63, −70), dig a 1×2 hole straight down.
+   Place ladders on one side of the shaft as you go, every block, no
+   gaps. Torch the shaft every 8 blocks as you descend.</li>
+<li><strong>Follow the floor.</strong> When your Y readout says 16, stop. You are at
+   the mission floor — deep enough for iron in abundance, safe from lava
+   lakes above the diamond layer.</li>
+<li><strong>Branch-mine.</strong> Dig the main tunnel east from (50, 16, −70) to
+   (70, 16, −70). Then dig side branches two blocks apart at Z −72 and
+   Z −68, 20 blocks long each. This pattern exposes the most ore for the
+   least digging.</li>
+<li><strong>Collect the iron.</strong> Mine every iron ore block you find with your
+   stone pickaxe. Do not smelt yet — this mission is about gathering.
+   You need 32 blocks of iron ore in your inventory.</li>
+<li><strong>Light as you go.</strong> Torch every tunnel every 8 blocks. A dark tunnel
+   is a mob nursery. You are a missionary of light — even underground.</li>
+<li><strong>Come back up.</strong> Climb the ladder. Check your Y as you rise: 20, 30,
+   40, 50, 60 — the world&rsquo;s floors rolling past like stairs.</li>
+</ol>
+<h3>Success Checklist</h3>
+<ul>
+<li>[ ] Shaft bottom reached at Y 16</li>
+<li>[ ] Ladders placed the full 47-block descent</li>
+<li>[ ] Branch tunnels dug to spec</li>
+<li>[ ] 32 iron ore in inventory</li>
+<li>[ ] Every tunnel lit, no spawns in the shaft</li>
+</ul>
+<h3>Missionary Note</h3>
+<p><em>The descent is the third lesson: the world&rsquo;s wealth is buried, and so
+is its danger. The Old Builders mined greedily and left their shafts
+dark; the creatures of the deep moved in behind them. When you go down,
+light everything and leave nothing behind. A clean mine is a claim that
+stays claimed.</em></p>
+<hr>
+<h1>TIER II — NORMAL</h1>
+<p><em>The middle five missions take you farther from spawn and deeper into the
+world. You will carve rooms out of the earth, run iron through fire,
+bridge a chasm, cross into the Nether, and make redstone obey. The easy
+days are over; the great work begins.</em></p>
+<hr>
+<h2>MISSION 6 — THE UNDERGROUND STRONGROOM</h2>
+<p><strong>Difficulty: Normal</strong></p>
+<h3>Mission Briefing</h3>
+<p>The surface is safe now — your house stands, your farm feeds you, your
+tower watches. But a missionary&rsquo;s treasure should not sit where every
+wandering eye can see it. Two hundred blocks east and three hundred
+south, a hill hides a secret: the perfect place for a strongroom.
+You will cut a staircase into the hill and carve a home out of the
+earth&rsquo;s bones.</p>
+<h3>Objective</h3>
+<p>Cut a <strong>staircase tunnel</strong> from the surface at (200, 63, 300) down to
+<strong>(200, 30, 300)</strong>, then carve a <strong>15×15×4 room</strong> around that point and
+furnish it with 16 chests, 8 furnaces, 4 crafting tables, and a bed.</p>
+<h3>Supplies</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Torches</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Chests</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Furnaces</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Crafting tables</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Ladders</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Doors</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Bed</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Iron ingots</td>
+<td>32</td>
+</tr>
+</tbody>
+</table>
+<p><em>(The iron ingots are for the door hinges and the furnace upgrades — a
+strongroom without iron is a pantry.)</em></p>
+<h3>Coordinates</h3>
+<table>
+<thead>
+<tr>
+<th>Landmark</th>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tunnel mouth (surface)</td>
+<td>200</td>
+<td>63</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Staircase</td>
+<td>200</td>
+<td>63 → 30</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Room floor (southwest corner)</td>
+<td>193</td>
+<td>30</td>
+<td>293</td>
+</tr>
+<tr>
+<td>Room floor (northeast corner)</td>
+<td>207</td>
+<td>30</td>
+<td>307</td>
+</tr>
+<tr>
+<td>Ceiling</td>
+<td>193–207</td>
+<td>34</td>
+<td>293–307</td>
+</tr>
+</tbody>
+</table>
+<p>The staircase drops 33 blocks straight down the Z axis at X 200. At
+Y 30, the room opens: X 193–207, Z 293–307 — a 15×15 floor with a
+4-block ceiling height.</p>
+<h3>The Plan</h3>
+<ol>
+<li><strong>Mark the mouth.</strong> At (200, 63, 300) on the hillside, dig a 2-wide
+   entrance.</li>
+<li><strong>Cut the staircase.</strong> Dig down in a straight run, 2 blocks wide, with
+   a step down every block. Torch both walls every 8 blocks. Check your
+   Y as you go: 55, 45, 35 — and stop at 30.</li>
+<li><strong>Carve the room.</strong> At Y 30, expand in all directions to the corners
+   (193, 30, 293) and (207, 30, 307). Cut the ceiling flat at Y 34.</li>
+<li><strong>Seal and light.</strong> Line the walls with torches on every pillar face —
+   a 15×15 room needs about 40 torches to stay spawn-proof. Place the
+   rest along the staircase.</li>
+<li><strong>Furnish.</strong> Chests against the north and south walls — 8 per wall,
+   16 total. Furnaces along the east wall — 8 of them. Crafting tables
+   in the four corners. Bed against the west wall.</li>
+<li><strong>Doors.</strong> Place a door at the tunnel mouth and a second at the room
+   entrance. The strongroom is yours; the world stays outside.</li>
+<li><strong>Inventory.</strong> Fill the chests with everything you have gathered so
+   far — iron ore from Mission 5, wheat from Mission 2, spare cobble and
+   coal. A missionary who loses his stores loses his momentum.</li>
+</ol>
+<h3>Success Checklist</h3>
+<ul>
+<li>[ ] Staircase complete from Y 63 to Y 30, fully lit</li>
+<li>[ ] Room carved to exact 15×15×4 dimensions</li>
+<li>[ ] 16 chests placed</li>
+<li>[ ] 8 furnaces placed</li>
+<li>[ ] 4 crafting tables placed</li>
+<li>[ ] Bed placed; no mob spawns anywhere in the room</li>
+</ul>
+<h3>Missionary Note</h3>
+<p><em>The strongroom is the fourth lesson: what you gather, you must guard.
+The Old Builders piled their wealth in the open and it was scattered in
+a single night. Bury what you love, light what you bury, and the world
+will have to work to take it from you.</em></p>
+<hr>
+<h2>MISSION 7 — THE IRONWORKS</h2>
+<p><strong>Difficulty: Normal</strong></p>
+<h3>Mission Briefing</h3>
+<p>Your chests are full of iron ore, but ore is only a promise. Iron becomes
+useful only when it passes through fire. Three hundred fifty blocks east
+of spawn, an outcrop of stone at (350, 64, 100) is the natural site for
+the Ironworks — a row of furnaces that will turn the promise of ore into
+the currency of the reclamation: iron ingots.</p>
+<h3>Objective</h3>
+<p>Build an <strong>8-furnace smelting works</strong> at the mission site with a
+<strong>hopper-fed chest system</strong>, then smelt <strong>64 iron ingots</strong> and bank them
+in the chest.</p>
+<h3>Supplies</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Iron ore</td>
+<td>64 (mined, not smelted)</td>
+</tr>
+<tr>
+<td>Cobblestone</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Furnaces</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Chests</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Hoppers</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Coal</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Crafting table</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h3>Coordinates</h3>
+<table>
+<thead>
+<tr>
+<th>Landmark</th>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Furnace row</td>
+<td>350 → 357</td>
+<td>64</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Hopper row (below)</td>
+<td>350 → 357</td>
+<td>63</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Collection chests</td>
+<td>352–353</td>
+<td>62</td>
+<td>102–103</td>
+</tr>
+</tbody>
+</table>
+<p>Eight furnaces sit in a row along Z 100, X 350 through 357. Each furnace
+feeds a hopper directly beneath it at Y 63; the hoppers feed chests at
+(352–353, 62, 102–103).</p>
+<h3>The Plan</h3>
+<ol>
+<li><strong>Feed the mission.</strong> Mine 64 iron ore if your stores are short —
+   follow the Mission 5 branch-mine pattern in fresh ground. You also
+   need 64 coal: any coal seam at Y 16–40 will do.</li>
+<li><strong>Build the works.</strong> Place 8 furnaces in a row: (350, 64, 100)
+   through (357, 64, 100).</li>
+<li><strong>Plumb the hoppers.</strong> Dig out the blocks beneath each furnace
+   (Y 63) and place a hopper there, pointed down. Dig a small channel at
+   Y 62 leading to the chest position at (352–353, 62, 102–103). Place
+   the four chests.</li>
+<li><strong>Wire the flow.</strong> Each hopper must point toward the next until the
+   line reaches the chests. Sneak-place the hoppers facing the correct
+   direction — this is the fiddliest step, and the most rewarding.</li>
+<li><strong>Fire the works.</strong> Load each furnace with 8 coal and 8 iron ore.
+   Light them. As each ingot smelts, the hopper below catches it and
+   carries it to the chest.</li>
+<li><strong>Bank the ingots.</strong> Run the works until 64 iron ingots sit in the
+   chest. Count them. When the count is right, the mission is done.</li>
+</ol>
+<h3>Success Checklist</h3>
+<ul>
+<li>[ ] 8 furnaces in a row at the mission coordinates</li>
+<li>[ ] 8 hoppers connected, all feeding the chest line</li>
+<li>[ ] 4 chests placed and reachable</li>
+<li>[ ] 64 iron ingots banked in the chest</li>
+<li>[ ] Works lit and safe to operate at night</li>
+</ul>
+<h3>Missionary Note</h3>
+<p><em>Ore is potential; ingot is power. The Ironworks teaches the fifth
+lesson: build systems, not just things. The Old Builders smelted one
+furnace at a time and spent their days tending fires. You will build a
+machine that tends itself while you do the next mission. Systems are how
+a single missionary reclaims a world.</em></p>
+<hr>
+<h2>MISSION 8 — THE CHASM BRIDGE</h2>
+<p><strong>Difficulty: Normal</strong></p>
+<h3>Mission Briefing</h3>
+<p>Four hundred blocks east of spawn, the land tears open. A ravine — the
+Old Builders called it the God-Split — runs for hundreds of blocks,
+darker than a wound, deeper than a well. The eastern lands beyond it
+hold the Nether gate site, but the ravine blocks the way. The creatures
+below own the dark. The missionary&rsquo;s answer is not to go around. The
+missionary&rsquo;s answer is to build across.</p>
+<h3>Objective</h3>
+<p>Bridge the ravine from the <strong>west lip at (400, 70, −200)</strong> to the
+<strong>east lip at (470, 70, −180)</strong>, with a 2-wide plank deck, fences on
+both sides, and 16 torches. Cross it safely.</p>
+<h3>Supplies</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Oak planks</td>
+<td>192</td>
+</tr>
+<tr>
+<td>Fence</td>
+<td>192</td>
+</tr>
+<tr>
+<td>Torches</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Cobblestone</td>
+<td>64</td>
+</tr>
+</tbody>
+</table>
+<h3>Coordinates</h3>
+<table>
+<thead>
+<tr>
+<th>Landmark</th>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>West lip</td>
+<td>400</td>
+<td>70</td>
+<td>−200</td>
+</tr>
+<tr>
+<td>East lip</td>
+<td>470</td>
+<td>70</td>
+<td>−180</td>
+</tr>
+<tr>
+<td>Deck</td>
+<td>400 → 470</td>
+<td>70</td>
+<td>−200 → −180</td>
+</tr>
+<tr>
+<td>Torch spacing</td>
+<td>every 8 blocks along the deck</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>The ravine runs roughly southwest–northeast. The bridge crosses at
+Y 70, 7 blocks above the surrounding ground (Y 63). The deck runs about
+70 blocks from X 400 to X 470, drifting south as it goes (Z −200 to
+−180).</p>
+<h3>The Plan</h3>
+<ol>
+<li><strong>Scout both lips.</strong> Walk the ravine edge at (400, 70, −200) and find
+   the matching ledge at (470, 70, −180). Mark both with torches.</li>
+<li><strong>Build the anchor.</strong> At the west lip, lay a cobblestone pad 4×4 so
+   the bridge has a solid footing.</li>
+<li><strong>Push the deck.</strong> Walk out from the pad, placing planks in pairs —
+   two wide, one block of air on either side. Check the ravine floor
+   below: it is a long way down. Do not look too long.</li>
+<li><strong>Fence as you go.</strong> After every two plank pairs, place fence along
+   both edges. It feels slow. It is what keeps you alive.</li>
+<li><strong>Light the way.</strong> Every 8 blocks, a torch on the fence — 16 in all.
+   The God-Split will glow like a river of fireflies.</li>
+<li><strong>Reach the far pad.</strong> Build a matching cobblestone pad on the east
+   lip at (470, 70, −180). The deck now spans lip to lip.</li>
+<li><strong>Cross it.</strong> Walk the full length, west to east. Do not sprint.
+   Do not jump. The bridge is yours; walk it like you own it.</li>
+</ol>
+<h3>Success Checklist</h3>
+<ul>
+<li>[ ] Deck 2 blocks wide, no gaps anywhere along the span</li>
+<li>[ ] Fence on both sides for the full length</li>
+<li>[ ] 16 torches placed at intervals</li>
+<li>[ ] Anchor pads on both lips</li>
+<li>[ ] Crossed the ravine safely, no falls, no deaths</li>
+</ul>
+<h3>Missionary Note</h3>
+<p><em>The bridge is the sixth lesson: obstacles are invitations. The Old
+Builders looked at the God-Split and saw the end of their road; they
+turned back, and their eastern claims were lost. The missionary looks at
+a chasm and sees a path that does not exist yet — and then builds it.
+Every block you place over the void is a refusal to be stopped.</em></p>
+<hr>
+<h2>MISSION 9 — THE GATE TO EMBER</h2>
+<p><strong>Difficulty: Normal</strong></p>
+<h3>Mission Briefing</h3>
+<p>Five hundred blocks east and four hundred south, the air changes. The
+trees thin, the grass yellows, and the ground feels hot underfoot. The
+Old Builders&rsquo; maps mark this place with a single word: EMBER. This is
+where the world&rsquo;s second layer begins — the Nether, a dimension of fire
+and ash. The missionary does not fear it; the missionary gates into it,
+claims a foothold, and comes back with proof.</p>
+<h3>Objective</h3>
+<p>Build and light a <strong>Nether portal</strong> at the mission site, enter the
+Nether, build a <strong>5×5×4 obsidian-and-cobble bunker</strong> at the Nether
+landing point, and return to the Overworld with <strong>16 netherrack and
+4 glowstone</strong>.</p>
+<h3>Supplies</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Obsidian</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Flint and steel</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Diamond pickaxe</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Cobblestone</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Torches</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Cooked food</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Iron sword</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h3>Coordinates</h3>
+<table>
+<thead>
+<tr>
+<th>Landmark</th>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Portal frame (Overworld)</td>
+<td>500</td>
+<td>64</td>
+<td>−400</td>
+</tr>
+<tr>
+<td>Portal arrival (Nether)</td>
+<td>62</td>
+<td>64</td>
+<td>−50</td>
+</tr>
+<tr>
+<td>Nether bunker corner</td>
+<td>60</td>
+<td>64</td>
+<td>−52</td>
+</tr>
+<tr>
+<td>Nether bunker corner</td>
+<td>64</td>
+<td>64</td>
+<td>−48</td>
+</tr>
+</tbody>
+</table>
+<p><em>(Nether coordinates are roughly the Overworld&rsquo;s divided by 8:
+500 ÷ 8 ≈ 62, −400 ÷ 8 = −50.)</em></p>
+<h3>The Plan</h3>
+<ol>
+<li><strong>Gather obsidian.</strong> Find a lava pool and pour water over it — or
+   mine the obsidian you find with the diamond pickaxe. You need 10
+   blocks.</li>
+<li><strong>Frame the gate.</strong> At (500, 64, −400), build the portal frame:
+   4 wide × 5 tall (the minimum size), 14 obsidian total. The opening
+   must be exactly 4×5 — 3 wide × 4 tall inside.</li>
+<li><strong>Strike the light.</strong> Use the flint and steel on the bottom-inside
+   block. The purple veil rises. The Gate to Ember is open.</li>
+<li><strong>Step through.</strong> When you arrive, you are at roughly (62, 64, −50).
+   Do not wander. The Nether rewards the prepared and devours the
+   curious.</li>
+<li><strong>Claim the landing.</strong> Immediately build the bunker: a 5×5 floor,
+   walls 4 high, cobblestone roof — enclosing the portal. Cobblestone
+   survives ghast fire; wood does not. Torch the inside.</li>
+<li><strong>Gather proof.</strong> With your iron sword ready, collect 16 netherrack
+   (the red rock is everywhere underfoot) and 4 glowstone (the yellow
+   glowing clusters in the ceiling). Watch for the piglin caravans —
+   they are not enemies unless you open their chests. The ghasts are
+   enemies. Always.</li>
+<li><strong>Return.</strong> Step back through the portal. The Overworld at
+   (500, 64, −400) has never looked so green.</li>
+</ol>
+<h3>Success Checklist</h3>
+<ul>
+<li>[ ] Portal frame 14 obsidian, lit and functional</li>
+<li>[ ] Bunker built around the Nether landing, fully enclosed</li>
+<li>[ ] 16 netherrack collected</li>
+<li>[ ] 4 glowstone collected</li>
+<li>[ ] Returned to the Overworld alive, portal still lit</li>
+</ul>
+<h3>Missionary Note</h3>
+<p><em>The Nether is the seventh lesson: there are worlds within worlds, and
+none of them are empty. The Old Builders&rsquo; maps stopped at the edge of
+their known ground, and so did they. The missionary crosses edges.
+Fear is a fine counselor and a terrible king — take it with you, but
+never let it give the orders.</em></p>
+<hr>
+<h2>MISSION 10 — THE REDSTONE RIVER</h2>
+<p><strong>Difficulty: Normal</strong></p>
+<h3>Mission Briefing</h3>
+<p>The Old Builders left one gift behind that they did not understand:
+redstone — dust that carries a pulse, a mineral nervous system sleeping
+in the earth. They used it for trinkets and threw the rest away. The
+missionary knows better. Redstone is obedience, made physical. This
+mission builds the Redstone River: a line of lamps that answers a single
+lever, sixty blocks from end to end.</p>
+<h3>Objective</h3>
+<p>Collect <strong>64 redstone dust</strong>, then build a line of <strong>8 redstone lamps</strong>
+from (620, 63, 300) to (680, 63, 300), wired with <strong>4 repeaters</strong>, and
+light all 8 lamps with <strong>one lever</strong>.</p>
+<h3>Supplies</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Redstone dust</td>
+<td>64 (mined)</td>
+</tr>
+<tr>
+<td>Redstone lamps</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Glowstone</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Redstone repeaters</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Redstone torches</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Levers</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Stone pickaxe</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<h3>Coordinates</h3>
+<table>
+<thead>
+<tr>
+<th>Landmark</th>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lamp line start</td>
+<td>620</td>
+<td>63</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Lamp positions</td>
+<td>620, 628, 636, 644, 652, 660, 668, 676</td>
+<td>63</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Repeater positions</td>
+<td>628, 644, 660, 676</td>
+<td>63</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Master lever</td>
+<td>620</td>
+<td>63</td>
+<td>301</td>
+</tr>
+</tbody>
+</table>
+<p>Eight lamps, spaced 8 blocks apart, from X 620 to X 676. Repeaters boost
+the signal at 16-block intervals. The lever sits at (620, 63, 301), one
+block off the line.</p>
+<h3>The Plan</h3>
+<ol>
+<li><strong>Mine the dust.</strong> Redstone lives at Y 5–15. Branch-mine fresh ground
+   near your strongroom until you have 64 redstone dust. You will also
+   need it for the repeaters — budget 4 dust for those.</li>
+<li><strong>Craft the lamps.</strong> 8 glowstone from Mission 9 + 32 redstone dust
+   = 8 redstone lamps.</li>
+<li><strong>Lay the line.</strong> Place the lamps in a straight row at the mission
+   coordinates. The line runs east from X 620.</li>
+<li><strong>Wire it.</strong> On the ground beside the lamps, lay redstone dust from
+   lamp to lamp. Redstone carries a signal 15 blocks before it fades —
+   so at X 628, 644, 660, and 676, place a repeater facing along the
+   line to refresh the pulse.</li>
+<li><strong>The lever.</strong> Place the lever at (620, 63, 301), attached to the
+   block next to the first lamp. Flip it.</li>
+<li><strong>Watch the river light.</strong> The pulse runs east, lamp after lamp,
+   repeater after repeater: 620, 628, 636, 644, 652, 660, 668, 676 —
+   eight points of light answering one finger.</li>
+<li><strong>Redstone torches.</strong> Place the 16 redstone torches along the back
+   side of the line as indicators — they glow only while the signal is
+   off, so you can read the river&rsquo;s health at a glance.</li>
+</ol>
+<h3>Success Checklist</h3>
+<ul>
+<li>[ ] 64 redstone dust mined</li>
+<li>[ ] 8 lamps placed at the mission coordinates</li>
+<li>[ ] 4 repeaters placed at the 16-block intervals</li>
+<li>[ ] One lever lights all 8 lamps</li>
+<li>[ ] Signal runs end to end without a break</li>
+</ul>
+<h3>Missionary Note</h3>
+<p><em>Redstone is the eighth lesson, and the strangest: the world obeys. Not
+through prayer or force, but through understanding. The Old Builders had
+this power in their hands and used it for toys. The missionary uses it
+for reach — a single hand, a hundred blocks away, doing the work of ten.
+Master the rules of the world, and the world becomes your tool.</em></p>
+<hr>
+<h1>TIER III — HARD</h1>
+<p><em>The final five missions cross the world&rsquo;s true frontiers: the stronghold
+under the hills, the End beyond the sky, the sunken palace, the heights
+above the clouds, and finally — the heart of it all. These missions will
+test everything the first ten taught you. Bring your best gear. Bring
+your patience. Bring your faith in the work.</em></p>
+<hr>
+<h2>MISSION 11 — THE STRONGHOLD HUNT</h2>
+<p><strong>Difficulty: Hard</strong></p>
+<h3>Mission Briefing</h3>
+<p>The Old Builders&rsquo; greatest secret was not a building — it was a door.
+Somewhere beneath the eastern hills lies the stronghold, a buried
+fortress of stone and silverfish, and at its heart, a portal that no
+living builder has ever used. The way to find it is written in the
+world&rsquo;s own language: the Eye of Ender, which always flies toward the
+door. This mission is a hunt.</p>
+<h3>Objective</h3>
+<p>Craft <strong>12 Eyes of Ender</strong>, track the stronghold from (700, 64, 100),
+enter it at <strong>(812, 34, 213)</strong>, and clear and light its library.
+<strong>24 bookshelves</strong> must survive intact.</p>
+<h3>Supplies</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ender pearls</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Blaze powder</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Bow</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Arrows</td>
+<td>32</td>
+</tr>
+<tr>
+<td>Torches</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Cooked food</td>
+<td>32</td>
+</tr>
+<tr>
+<td>Iron armor (full set)</td>
+<td>1 set</td>
+</tr>
+</tbody>
+</table>
+<h3>Coordinates</h3>
+<table>
+<thead>
+<tr>
+<th>Landmark</th>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hunt start</td>
+<td>700</td>
+<td>64</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Stronghold staircase</td>
+<td>812</td>
+<td>34</td>
+<td>213</td>
+</tr>
+<tr>
+<td>Library floor (southwest corner)</td>
+<td>806</td>
+<td>32</td>
+<td>209</td>
+</tr>
+<tr>
+<td>Library floor (northeast corner)</td>
+<td>817</td>
+<td>32</td>
+<td>216</td>
+</tr>
+<tr>
+<td>Portal room (next mission)</td>
+<td>812</td>
+<td>30</td>
+<td>213</td>
+</tr>
+</tbody>
+</table>
+<p>The stronghold burrows through the hills at Y 30–40. The library sits
+12 blocks wide and 8 deep at Y 32, its bookshelves lining the walls.</p>
+<h3>The Plan</h3>
+<ol>
+<li><strong>Craft the eyes.</strong> 12 ender pearls + 12 blaze powder = 12 Eyes of
+   Ender. (Blaze powder means a Nether trip for blaze rods — use your
+   Gate to Ember bunker as your base of operations.)</li>
+<li><strong>Throw and follow.</strong> Stand at (700, 64, 100). Throw an Eye of Ender;
+   it floats toward the stronghold. Walk in that direction. When it
+   drops to the ground, pick it up, walk past it, throw again. Repeat.</li>
+<li><strong>Watch it sink.</strong> The eyes will eventually fly <em>down</em> into the
+   hillside and shatter. Dig where they vanish. You are over the
+   stronghold.</li>
+<li><strong>Find the stairs.</strong> Descend until you hit the stone-brick corridors
+   of the stronghold around Y 34. Locate the staircase at (812, 34, 213).</li>
+<li><strong>Clear the library.</strong> Fight the silverfish in swarms — they burst
+   from mined stone brick, so break blocks with your sword ready. The
+   library is the largest room: high ceiling, double-decker bookshelves,
+   a ladder, and a chest with loot.</li>
+<li><strong>Light and count.</strong> Torch every corner and aisle — 64 torches is
+   enough for the library and the corridors around it. Count the
+   bookshelves: 24 must remain. Do not break them. They are the
+   stronghold&rsquo;s last library, and they are older than the Old Builders
+   themselves.</li>
+<li><strong>Report the door.</strong> In the room beneath the library, at (812, 30,
+   213), you will find the portal frame — the End Portal, unlit, waiting.
+   Leave it for Mission 12. Your mission here is done.</li>
+</ol>
+<h3>Success Checklist</h3>
+<ul>
+<li>[ ] 12 Eyes of Ender crafted and used</li>
+<li>[ ] Stronghold entered at (812, 34, 213)</li>
+<li>[ ] Library cleared of mobs and fully lit</li>
+<li>[ ] 24 bookshelves intact</li>
+<li>[ ] End Portal frame located and marked</li>
+</ul>
+<h3>Missionary Note</h3>
+<p><em>The hunt is the ninth lesson: some doors cannot be built — they must be
+found. The Old Builders bricked over their greatest gate and forgot it,
+the way people bury what they fear to finish. The Eye of Ender does not
+lie; it flies toward what was hidden. Follow the truth of the world,
+even when it leads you underground.</em></p>
+<hr>
+<h2>MISSION 12 — THE END</h2>
+<p><strong>Difficulty: Hard</strong></p>
+<h3>Mission Briefing</h3>
+<p>The portal at (812, 30, 213) opens onto the End: a black sky, an island
+of pale stone, and the Ender Dragon — the world&rsquo;s oldest tyrant, the
+reason the Old Builders sealed the door and fled. The missionary&rsquo;s
+commission does not stop at the edge of the map. It stops only when the
+tyrant falls. This is the mission the whole book has been building
+toward. Arm yourself, step through, and end the End.</p>
+<h3>Objective</h3>
+<p>Activate the End Portal at the stronghold, enter the End, <strong>defeat the
+Ender Dragon</strong>, and return through the gateway with the <strong>dragon egg</strong>.</p>
+<h3>Supplies</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Eyes of Ender</td>
+<td>12 (for the portal)</td>
+</tr>
+<tr>
+<td>Bow</td>
+<td>1 (enchanted with Power if you have it)</td>
+</tr>
+<tr>
+<td>Arrows</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Golden apples</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Water buckets</td>
+<td>3</td>
+</tr>
+<tr>
+<td>End stone (bridging)</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Diamond pickaxe</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Slow Falling potions</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Cooked food</td>
+<td>32</td>
+</tr>
+</tbody>
+</table>
+<h3>Coordinates</h3>
+<table>
+<thead>
+<tr>
+<th>Landmark</th>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Portal room (Overworld)</td>
+<td>812</td>
+<td>30</td>
+<td>213</td>
+</tr>
+<tr>
+<td>Arrival platform (End)</td>
+<td>100</td>
+<td>50</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Central pillar ring</td>
+<td>0–20 from center</td>
+<td>65–80</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Dragon egg (after victory)</td>
+<td>0</td>
+<td>65</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Return gateway</td>
+<td>100</td>
+<td>50</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h3>The Plan</h3>
+<ol>
+<li><strong>Fill the frame.</strong> Place an Eye of Ender in each of the 12 frame
+   blocks around the portal at (812, 30, 213). The green fire lights.
+   Step back, then step through.</li>
+<li><strong>Arrive.</strong> You stand on the obsidian platform at (100, 50, 0). The
+   dragon circles the island&rsquo;s central spire. Take a breath. This is
+   the moment the book promised.</li>
+<li><strong>Destroy the crystals.</strong> The dragon cannot die while the end
+   crystals heal it. The crystals sit on obsidian pillars ringing the
+   island. Build up each pillar with end stone, break the crystal with
+   your pickaxe or a well-aimed arrow, and — critically — <strong>break the
+   iron bars beneath it</strong> or the dragon will re-heal. Protect yourself:
+   the dragon&rsquo;s fire breath and wing buffet are the real weapons.
+   Golden apples and the water buckets (for quick drops) are your
+   insurance.</li>
+<li><strong>Drink, then bridge.</strong> When the crystals are gone, the dragon can
+   be hurt. Drink a Slow Falling potion before long descents. Bridge
+   across the void with end stone to reach the dragon as it perches on
+   the central spire at the ring&rsquo;s heart.</li>
+<li><strong>Bring it down.</strong> Arrow after arrow, the dragon spirals lower. When
+   it perches on the spire, charge. Its health bar drains. Keep firing.</li>
+<li><strong>Collect the egg.</strong> The dragon dies in a shower of light — and on
+   the spire at (0, 65, 0) rests the dragon egg, black as the old sky.
+   Mine the block beneath it carefully so it falls to a torch and
+   becomes an item. It is yours now.</li>
+<li><strong>Return.</strong> The gateway at (100, 50, 0) opens. Step through, and the
+   Overworld rises around you: green, safe, and <em>free</em>. The tyrant of
+   the End has fallen, and the missionary who fell it stands in the
+   light.</li>
+</ol>
+<h3>Success Checklist</h3>
+<ul>
+<li>[ ] Portal activated with 12 eyes</li>
+<li>[ ] All end crystals destroyed</li>
+<li>[ ] Ender Dragon defeated</li>
+<li>[ ] Dragon egg collected at (0, 65, 0)</li>
+<li>[ ] Returned alive through the gateway at (100, 50, 0)</li>
+</ul>
+<h3>Missionary Note</h3>
+<p><em>The End is the tenth lesson, and it is the heart of the whole book:
+the thing that overtook the world is not a mob, not a curse, not a
+dragon. It is the fear that made the Old Builders seal the door instead
+of walking through it. The dragon is real, and it is killable. Nothing
+that casts a shadow is stronger than the one who walks toward it with
+light in hand.</em></p>
+<hr>
+<h2>MISSION 13 — THE SUNKEN PALACE</h2>
+<p><strong>Difficulty: Hard</strong></p>
+<h3>Mission Briefing</h3>
+<p>The ocean east of the ravine holds a palace the Old Builders never
+finished building and never dared to enter: a monument of dark
+prismarine, guarded by the elder guardians — ancient fish of pure
+malevolence that curse all who approach. Beneath it lies a fortune:
+sponges, gold, and the deep-sea crystal called prismarine, which
+glows with the light of the sea itself. The missionary does not
+loot ruins. The missionary <em>clears</em> them.</p>
+<h3>Objective</h3>
+<p>Enter the ocean monument at <strong>(950, 62, −500)</strong>, defeat the <strong>3 elder
+guardians</strong>, mine <strong>64 prismarine</strong> and <strong>16 sponge</strong>, and build an
+<strong>active conduit</strong> at (950, 60, −500).</p>
+<h3>Supplies</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Conduit</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Prismarine</td>
+<td>42 (for the conduit frame)</td>
+</tr>
+<tr>
+<td>Water Breathing potions</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Doors</td>
+<td>16 (air pockets under water)</td>
+</tr>
+<tr>
+<td>Glowstone</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Iron pickaxe</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Cooked food</td>
+<td>32</td>
+</tr>
+</tbody>
+</table>
+<h3>Coordinates</h3>
+<table>
+<thead>
+<tr>
+<th>Landmark</th>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Monument entrance</td>
+<td>950</td>
+<td>62</td>
+<td>−500</td>
+</tr>
+<tr>
+<td>Monument bounds</td>
+<td>940–960</td>
+<td>58–80</td>
+<td>−510 to −490</td>
+</tr>
+<tr>
+<td>Elder guardian (west wing)</td>
+<td>943</td>
+<td>62</td>
+<td>−505</td>
+</tr>
+<tr>
+<td>Elder guardian (east wing)</td>
+<td>957</td>
+<td>62</td>
+<td>−495</td>
+</tr>
+<tr>
+<td>Elder guardian (top)</td>
+<td>950</td>
+<td>78</td>
+<td>−500</td>
+</tr>
+<tr>
+<td>Conduit site</td>
+<td>950</td>
+<td>60</td>
+<td>−500</td>
+</tr>
+</tbody>
+</table>
+<p>The monument is 20 blocks square, rising from Y 58 to Y 80 — an
+underwater mountain of dark stone. The conduit goes at its heart, at
+the entrance level.</p>
+<h3>The Plan</h3>
+<ol>
+<li><strong>Prepare for the deep.</strong> Drink a Water Breathing potion before you
+   swim in. Bring all three — the mission is long.</li>
+<li><strong>Enter.</strong> At (950, 62, −500) you find the entrance tunnel. Place
+   doors as air pockets along the way — doors hold air under water, and
+   air is where you catch your breath.</li>
+<li><strong>The elders.</strong> Three elder guardians haunt the monument: one in the
+   west wing (943, 62, −505), one in the east wing (957, 62, −495),
+   one in the top chamber (950, 78, −500). Each curses you with mining
+   fatigue. Kill them with your pickaxe — they are slow and clumsy
+   outside water&rsquo;s protection.</li>
+<li><strong>Strip the palace.</strong> Mine prismarine from the walls and floors —
+   you need 64. The blocks cut slowly under water; the conduit will
+   fix that. Break the sea lanterns for extra light and place your
+   glowstone in the corridors.</li>
+<li><strong>The sponge room.</strong> Find the sponge rooms (they are the rooms whose
+   floors are sand, not prismarine). Break the sponges — 16 of them.
+   They will be priceless when you build underwater again.</li>
+<li><strong>Build the conduit.</strong> At (950, 60, −500), build the full-power
+   frame: three 5×5 rings of prismarine — one horizontal, two vertical
+   — crossing through the conduit block at the center. 42 prismarine
+   blocks total. When the frame is complete, the conduit activates —
+   and suddenly, within its range, you can breathe, you can see, and
+   you can mine like the sea itself is on your side.</li>
+<li><strong>Light the heart.</strong> Place the remaining glowstone around the conduit
+   so the heart of the palace glows like a lantern in a cathedral.</li>
+</ol>
+<h3>Success Checklist</h3>
+<ul>
+<li>[ ] All 3 elder guardians defeated</li>
+<li>[ ] 64 prismarine mined</li>
+<li>[ ] 16 sponge collected</li>
+<li>[ ] Conduit active at (950, 60, −500) with full frame</li>
+<li>[ ] Monument fully lit, no guardians remaining</li>
+</ul>
+<h3>Missionary Note</h3>
+<p><em>The sunken palace is the eleventh lesson: what is deepest is often
+what is most afraid of light. The elders did not defend the monument —
+they hid in it, and their curse was only fear made visible. The
+conduit, a heart of light built from the sea&rsquo;s own stone, turns their
+fortress into a lantern. Bring light to the deepest place, and the
+deepest place will serve you.</em></p>
+<hr>
+<h2>MISSION 14 — THE FLOATING CITY</h2>
+<p><strong>Difficulty: Hard</strong></p>
+<h3>Mission Briefing</h3>
+<p>The world below is nearly yours. The fields are lit, the strongroom is
+full, the dragon is dead, and the sea glows with your conduit. But the
+missionary&rsquo;s work is not finished while the sky itself remains
+unclaimed. Twelve hundred blocks east and eight hundred south, the
+plains rise into a mesa — and above the mesa, nothing but air. The
+Old Builders looked up and saw weather. You will look up and see
+<strong>the site</strong>.</p>
+<h3>Objective</h3>
+<p>Build a <strong>30×30 floating island</strong> at (1200, 150, 800) with <strong>4
+buildings</strong>, a <strong>wheat farm</strong>, and a <strong>waterfall access column</strong> from
+the ground at (1200, 63, 800). The island must be livable: lit,
+fenced, and reachable without taking fall damage.</p>
+<h3>Supplies</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dirt</td>
+<td>256</td>
+</tr>
+<tr>
+<td>Oak planks</td>
+<td>256</td>
+</tr>
+<tr>
+<td>Glass</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Lanterns</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Wheat seeds</td>
+<td>32</td>
+</tr>
+<tr>
+<td>Water bucket</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Ladders</td>
+<td>96</td>
+</tr>
+<tr>
+<td>Cobblestone</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Scaffolding (bamboo or planks)</td>
+<td>128</td>
+</tr>
+</tbody>
+</table>
+<h3>Coordinates</h3>
+<table>
+<thead>
+<tr>
+<th>Landmark</th>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Island floor (southwest corner)</td>
+<td>1185</td>
+<td>150</td>
+<td>785</td>
+</tr>
+<tr>
+<td>Island floor (northeast corner)</td>
+<td>1215</td>
+<td>150</td>
+<td>815</td>
+</tr>
+<tr>
+<td>Waterfall column</td>
+<td>1200</td>
+<td>63 → 150</td>
+<td>800</td>
+</tr>
+<tr>
+<td>Building 1 (northwest)</td>
+<td>1188</td>
+<td>151</td>
+<td>788</td>
+</tr>
+<tr>
+<td>Building 2 (northeast)</td>
+<td>1208</td>
+<td>151</td>
+<td>788</td>
+</tr>
+<tr>
+<td>Building 3 (southwest)</td>
+<td>1188</td>
+<td>151</td>
+<td>812</td>
+</tr>
+<tr>
+<td>Building 4 (southeast)</td>
+<td>1208</td>
+<td>151</td>
+<td>812</td>
+</tr>
+<tr>
+<td>Farm</td>
+<td>1194–1206</td>
+<td>151</td>
+<td>794–806</td>
+</tr>
+</tbody>
+</table>
+<p>The island floats at Y 150, 87 blocks above the mesa floor. Each
+building is 5×5. The farm is 12×12 at the island&rsquo;s center.</p>
+<h3>The Plan</h3>
+<ol>
+<li><strong>The pillar.</strong> At (1200, 63, 800), build straight up to Y 150.
+   Scaffold as you go. This is the spine of the Floating City.</li>
+<li><strong>The platform.</strong> From the pillar top, build the 30×30 floor:
+   X 1185–1215, Z 785–815. Dirt for the farm zone, planks everywhere
+   else.</li>
+<li><strong>The waterfall.</strong> At the pillar, make the climb permanent: place
+   water at the top so it falls all the way down, and ring the column
+   with ladders for a dry route. No more scaffolding — the city must
+   stand on its own.</li>
+<li><strong>Four buildings.</strong> Raise a 5×5 house in each quadrant at the mission
+   coordinates: plank walls, glass windows, plank roofs, one door each.
+   Each house gets a bed, a chest, and a crafting table. Four corners,
+   four homes, one city.</li>
+<li><strong>The farm.</strong> Till the center 12×12, water it from the bucket, plant
+   32 seeds. The Floating City eats what it grows.</li>
+<li><strong>Light and rail.</strong> Lanterns every 8 blocks around the island edge —
+   64 total. Ring the edge with glass panels so nothing and no one
+   walks off in the night.</li>
+<li><strong>Test the descent.</strong> Jump from the edge? No — the missionary tests
+   the waterfall. Climb down the ladders, walk back, and look up. The
+   city hangs in the sky like a promise kept.</li>
+</ol>
+<h3>Success Checklist</h3>
+<ul>
+<li>[ ] Island 30×30 at (1185, 150, 785) to (1215, 150, 815)</li>
+<li>[ ] 4 buildings built and furnished</li>
+<li>[ ] Farm planted and harvested once</li>
+<li>[ ] Waterfall and ladder access both functional</li>
+<li>[ ] 64 lanterns placed, glass railing complete</li>
+</ul>
+<h3>Missionary Note</h3>
+<p><em>The Floating City is the twelfth lesson: the world is not finished,
+and neither are you. The Old Builders built where the ground allowed
+and called it fate. The missionary builds where the work demands, and
+calls it vision. Height is not an obstacle — it is an opportunity.
+Claim the sky, and the sky will hold you.</em></p>
+<hr>
+<h2>MISSION 15 — THE BEACON OF OVERTAKING</h2>
+<p><strong>Difficulty: Hard</strong></p>
+<h3>Mission Briefing</h3>
+<p>Return to where you began. Spawn at (0, 63, 0) — the first plot, the
+first foundation, the place where the reclamation started. The world
+has changed since you stood here with nothing. The house stands, the
+farm feeds, the road glows, the tower watches, the strongroom holds,
+the bridge spans, the gate burns, the river runs, the stronghold is
+open, the dragon is dead, the sea is lit, and a city hangs in the sky.
+One thing is missing: a monument that tells the world <em>why</em>. This
+final mission builds the Beacon of Overtaking — a pyramid, a beam of
+light, and a wall of stone, at the very heart of the world.</p>
+<h3>Objective</h3>
+<p>Build a <strong>4-layer beacon pyramid</strong> (164 mineral blocks) at
+(−4, 63, −4) to (4, 63, 4), activate the <strong>beacon</strong>, surround the
+site with a <strong>50×50 stone wall</strong>, and raise a <strong>banner</strong> over the gate.</p>
+<h3>Supplies</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Beacon</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Mineral blocks (iron, gold, emerald, or diamond — any mix)</td>
+<td>164</td>
+</tr>
+<tr>
+<td>Cobblestone</td>
+<td>512</td>
+</tr>
+<tr>
+<td>Quartz (or white blocks for the cap)</td>
+<td>128</td>
+</tr>
+<tr>
+<td>Banner</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Torches</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Iron ingots</td>
+<td>16 (to feed the beacon)</td>
+</tr>
+</tbody>
+</table>
+<h3>Coordinates</h3>
+<table>
+<thead>
+<tr>
+<th>Landmark</th>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pyramid base (southwest corner)</td>
+<td>−4</td>
+<td>63</td>
+<td>−4</td>
+</tr>
+<tr>
+<td>Pyramid base (northeast corner)</td>
+<td>4</td>
+<td>63</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Layer 2 (7×7)</td>
+<td>−3 to 3</td>
+<td>64</td>
+<td>−3 to 3</td>
+</tr>
+<tr>
+<td>Layer 3 (5×5)</td>
+<td>−2 to 2</td>
+<td>65</td>
+<td>−2 to 2</td>
+</tr>
+<tr>
+<td>Layer 4 (3×3)</td>
+<td>−1 to 1</td>
+<td>66</td>
+<td>−1 to 1</td>
+</tr>
+<tr>
+<td>Beacon</td>
+<td>0</td>
+<td>67</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Wall corner (southwest)</td>
+<td>−25</td>
+<td>63</td>
+<td>−25</td>
+</tr>
+<tr>
+<td>Wall corner (northeast)</td>
+<td>24</td>
+<td>63</td>
+<td>24</td>
+</tr>
+<tr>
+<td>Gate (west wall)</td>
+<td>−25</td>
+<td>63–67</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Banner</td>
+<td>−25</td>
+<td>68</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>The pyramid: 9×9 at Y 63 (81 blocks), 7×7 at Y 64 (49), 5×5 at Y 65
+(25), 3×3 at Y 66 (9) — 164 blocks total, crowned by the beacon at
+(0, 67, 0).</p>
+<h3>The Plan</h3>
+<ol>
+<li><strong>Gather the wealth.</strong> You need 164 mineral blocks. Iron is the
+   workhorse (your Ironworks can supply it); gold, emerald, and
+   diamond from your travels fill the rest. The beacon does not care
+   what the pyramid is made of — only that it stands.</li>
+<li><strong>Lay the base.</strong> At (0, 63, 0), build the 9×9 layer: X −4 to 4,
+   Z −4 to 4.</li>
+<li><strong>Raise the pyramid.</strong> Layer 2 (7×7) at Y 64, centered. Layer 3
+   (5×5) at Y 65. Layer 4 (3×3) at Y 66. Each layer centered on
+   (0, ?, 0). Check the math: 81 + 49 + 25 + 9 = 164.</li>
+<li><strong>Crown it.</strong> Place the beacon on the single block at (0, 67, 0).
+   Feed it the 16 iron ingots. The beam erupts — a column of light
+   that pierces the sky and can be seen from any corner of the world.
+   Stand in its glow and select your power: Speed and Haste are the
+   missionary&rsquo;s gifts.</li>
+<li><strong>The wall.</strong> From (−25, 63, −25) to (24, 63, 24), raise a 2-high
+   cobblestone wall around the beacon site: 50 blocks on each side,
+   four corners. Leave a gate gap in the west wall at (−25, 63–67, 0)
+   — a doorway, not a barricade. The light is not for keeping people
+   out. It is for calling them home.</li>
+<li><strong>The banner.</strong> Cap the gate at (−25, 68, 0) with the banner — your
+   colors, your mark. The reclamation has a flag now.</li>
+<li><strong>Light the ramparts.</strong> Torches along the wall every 8 blocks — 64
+   total. The wall glows like a crown.</li>
+<li><strong>The view.</strong> Climb to the top of your own house at (24, 68, 12).
+   Look west: the beacon&rsquo;s beam rises from the heart of the world.
+   Walk the Lantern Road one last time. Count the landmarks — every
+   one of them, yours. The world is no longer overtaken. It is
+   <em>overtaken by light</em>.</li>
+</ol>
+<h3>Success Checklist</h3>
+<ul>
+<li>[ ] Pyramid built to exact spec: 81 + 49 + 25 + 9 = 164 blocks</li>
+<li>[ ] Beacon active, beam visible from the ground</li>
+<li>[ ] Wall 50×50, 2 blocks high, with gate</li>
+<li>[ ] Banner raised over the gate</li>
+<li>[ ] 64 torches on the ramparts</li>
+<li>[ ] View from (0, 150, 0): the world, lit, claimed, and free</li>
+</ul>
+<h3>Missionary Note</h3>
+<p><em>This is the last lesson, and it is the whole book in one beam of
+light: you do not reclaim the world by conquering it. You reclaim it by
+lighting it. The Old Builders built walls to keep the dark out and the
+dark simply waited. You built a light that makes the dark irrelevant.
+Go where the mission takes you. Build what the work demands. Light
+what you build. And when the night comes — and it will come — let it
+find a world that is already overtaken.</em></p>
+<p><em>By the light. By the work. By the world you took back.</em></p>
+<p><em>Mission complete.</em></p>
+<hr>
+<h2>EPILOGUE — THE OVERTAKING</h2>
+<p>The beacon burns. The world is yours.</p>
+<p>Fifteen missions, three tiers, one world reclaimed. You began with
+nothing but a compass and a commission, and you end with a kingdom of
+light: a home at (24, 64, 12), a farm at (−45, 63, 80), a road of
+torches from spawn to (100, 64, 100), a tower at (−120, 64, −40), a
+mine at (50, 16, −70), a strongroom at (200, 30, 300), an Ironworks
+at (350, 64, 100), a bridge across the God-Split, a gate to the Nether
+at (500, 64, −400), a river of redstone at (620–676, 63, 300), a
+stronghold found at (812, 34, 213), an End conquered, a sea made
+light, a city in the sky, and a beacon at the heart of it all.</p>
+<p>The world was overtaken once. Now it is overtaken by something better.</p>
+<p>The book is finished. The mission is not. The world beyond the beacon
+still holds dark corners, unbuilt bridges, unfound strongholds. That is
+not a tragedy. That is the work. The missionary&rsquo;s commission never
+expires — it just changes shape.</p>
+<p><em>Go, and take the next world back.</em></p>
+<hr>
+<h2>APPENDIX A — READING COORDINATES</h2>
+<p>The complete cheat sheet for every coordinate in this book.</p>
+<p><strong>The order is always X, Y, Z.</strong></p>
+<ul>
+<li><strong>X:</strong> east (+) or west (−)</li>
+<li><strong>Y:</strong> up (+) or down (−) — your altitude</li>
+<li><strong>Z:</strong> south (+) or north (−)</li>
+</ul>
+<p><strong>Sea level is Y = 63.</strong> Everything in this book measures from there.</p>
+<p><strong>To find any mission site:</strong> match X and Z first (that puts you in the
+right horizontal place), then adjust Y (that puts you at the right
+floor). X or Z changes mean sideways movement. Y changes mean up or
+down.</p>
+<p><strong>Nether rule:</strong> Nether coordinates are roughly Overworld ÷ 8. The
+portal at Overworld (500, −400) lands you at Nether (62, −50).</p>
+<hr>
+<h2>APPENDIX B — MASTER COORDINATE TABLE</h2>
+<table>
+<thead>
+<tr>
+<th>Mission</th>
+<th>Site</th>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 — The First Foundation</td>
+<td>House plot</td>
+<td>24</td>
+<td>64</td>
+<td>12</td>
+</tr>
+<tr>
+<td>2 — The Bread Basket</td>
+<td>Farm field</td>
+<td>−45</td>
+<td>63</td>
+<td>80</td>
+</tr>
+<tr>
+<td>3 — The Lantern Road</td>
+<td>Path end / tower</td>
+<td>100</td>
+<td>64</td>
+<td>100</td>
+</tr>
+<tr>
+<td>4 — The Watchtower</td>
+<td>Tower base</td>
+<td>−120</td>
+<td>64</td>
+<td>−40</td>
+</tr>
+<tr>
+<td>5 — The First Descent</td>
+<td>Shaft mouth</td>
+<td>50</td>
+<td>63</td>
+<td>−70</td>
+</tr>
+<tr>
+<td>6 — The Underground Strongroom</td>
+<td>Room floor</td>
+<td>200</td>
+<td>30</td>
+<td>300</td>
+</tr>
+<tr>
+<td>7 — The Ironworks</td>
+<td>Furnace row</td>
+<td>350</td>
+<td>64</td>
+<td>100</td>
+</tr>
+<tr>
+<td>8 — The Chasm Bridge</td>
+<td>West lip</td>
+<td>400</td>
+<td>70</td>
+<td>−200</td>
+</tr>
+<tr>
+<td>9 — The Gate to Ember</td>
+<td>Portal (Overworld)</td>
+<td>500</td>
+<td>64</td>
+<td>−400</td>
+</tr>
+<tr>
+<td>9 — The Gate to Ember</td>
+<td>Bunker (Nether)</td>
+<td>62</td>
+<td>64</td>
+<td>−50</td>
+</tr>
+<tr>
+<td>10 — The Redstone River</td>
+<td>Lamp line start</td>
+<td>620</td>
+<td>63</td>
+<td>300</td>
+</tr>
+<tr>
+<td>11 — The Stronghold Hunt</td>
+<td>Stronghold library</td>
+<td>812</td>
+<td>34</td>
+<td>213</td>
+</tr>
+<tr>
+<td>12 — The End</td>
+<td>Portal room</td>
+<td>812</td>
+<td>30</td>
+<td>213</td>
+</tr>
+<tr>
+<td>13 — The Sunken Palace</td>
+<td>Monument entrance</td>
+<td>950</td>
+<td>62</td>
+<td>−500</td>
+</tr>
+<tr>
+<td>14 — The Floating City</td>
+<td>Island floor</td>
+<td>1200</td>
+<td>150</td>
+<td>800</td>
+</tr>
+<tr>
+<td>15 — The Beacon of Overtaking</td>
+<td>Beacon</td>
+<td>0</td>
+<td>67</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>APPENDIX C — THE SUPPLIES LEDGER</h2>
+<p>The full tally of what the reclamation demands. Gather as you go;
+the ledger is the missionary&rsquo;s budget.</p>
+<table>
+<thead>
+<tr>
+<th>Supply</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Torches</td>
+<td>340</td>
+</tr>
+<tr>
+<td>Coal</td>
+<td>112</td>
+</tr>
+<tr>
+<td>Sticks</td>
+<td>48</td>
+</tr>
+<tr>
+<td>Oak logs / planks</td>
+<td>64 logs, 736 planks</td>
+</tr>
+<tr>
+<td>Cobblestone</td>
+<td>1,376</td>
+</tr>
+<tr>
+<td>Glass</td>
+<td>152</td>
+</tr>
+<tr>
+<td>Fence / fence gates</td>
+<td>236 + 1 gate</td>
+</tr>
+<tr>
+<td>Ladders</td>
+<td>224</td>
+</tr>
+<tr>
+<td>Chests</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Furnaces</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Crafting tables</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Iron ingots (banked)</td>
+<td>112</td>
+</tr>
+<tr>
+<td>Iron ore (mined)</td>
+<td>160</td>
+</tr>
+<tr>
+<td>Redstone dust</td>
+<td>64</td>
+</tr>
+<tr>
+<td>Glowstone</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Obsidian</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Prismarine</td>
+<td>106</td>
+</tr>
+<tr>
+<td>Sponge</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Mineral blocks (beacon)</td>
+<td>164</td>
+</tr>
+<tr>
+<td>Beds</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Doors</td>
+<td>23</td>
+</tr>
+<tr>
+<td>Banners</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Eyes of Ender</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Golden apples</td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
+<p><em>(Quantities are minimums. The missionary who gathers more never
+regrets it.)</em></p>
+<hr>
+<h2>APPENDIX D — GLOSSARY</h2>
+<ul>
+<li><strong>Beacon</strong> — a block that projects a beam of light into the sky when
+  placed atop a mineral pyramid; grants powers to those in its glow.</li>
+<li><strong>Branch mining</strong> — digging parallel tunnels two blocks apart to
+  expose maximum ore for minimum effort.</li>
+<li><strong>Conduit</strong> — a heart of prismarine and nautilus shell that grants
+  water breathing and vision underwater when framed in prismarine.</li>
+<li><strong>Elder guardian</strong> — the ancient, cursed fish that guard ocean
+  monuments; they inflict Mining Fatigue.</li>
+<li><strong>End Crystal</strong> — the healing crystal atop each obsidian pillar in
+  the End; the dragon cannot die while they remain.</li>
+<li><strong>Eye of Ender</strong> — crafted from ender pearl and blaze powder; flies
+  toward the nearest stronghold when thrown.</li>
+<li><strong>Ender Dragon</strong> — the tyrant of the End dimension, and the final
+  boss of the mission field.</li>
+<li><strong>Ghast</strong> — a large floating fire creature of the Nether that fires
+  explosive fireballs.</li>
+<li><strong>God-Split</strong> — the ravine crossed by the Chasm Bridge; a missionary
+  landmark.</li>
+<li><strong>Hopper</strong> — a block that moves items from one container to another;
+  the heart of any automated system.</li>
+<li><strong>Lantern of the East</strong> — the torch tower at (100, 64, 100), first
+  landmark of the reclamation.</li>
+<li><strong>Nether</strong> — the dimension of fire reached through a lit obsidian
+  portal; coordinates are roughly one-eighth of the Overworld&rsquo;s.</li>
+<li><strong>Piglin</strong> — a gold-loving creature of the Nether; neutral unless
+  provoked.</li>
+<li><strong>Repeater</strong> — a redstone component that refreshes and delays a
+  signal, letting it travel farther than 15 blocks.</li>
+<li><strong>Silverfish</strong> — a small mob that bursts from mined stone brick in
+  strongholds; swarm with friends.</li>
+<li><strong>Spawn</strong> — the point (0, 63, 0) where you first entered the world
+  and where the reclamation began.</li>
+</ul>
+<hr>
+<p><em>Minecraft Overtaken — A Missionary&rsquo;s Guide to Reclaiming the Blocky
+World. Written in the mission field, block by block.</em></p>
+<p><em>The End.</em></p>
+<footer style="margin-top:70px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:13px;">
+  Minecraft Overtaken — written in the mission field, block by block.<br>
+  Source markdown lives in <code>book/part1.md</code> in this repository.
+</footer>
+</main>
+</div>
+</body>
+</html>
