@@ -20,6 +20,19 @@ The full book is published on GitHub Pages:
 
 The raw source is `book/part1.md` (~11,000 words).
 
+## Download the PDF
+
+Want the book offline? Grab the print-ready PDF (49 pages: cover,
+contents with page numbers, all 15 missions):
+
+**https://github.com/Walusimbi-Leon1/minecraft-overtaken/releases/download/v1.0/minecraft-overtaken-v1.0.pdf**
+
+Regenerate it anytime from the markdown:
+
+```bash
+python3 build_pdf.py   # requires weasyprint + markdown
+```
+
 ## The Missions
 
 | Tier | Missions | Difficulty | Theme |
