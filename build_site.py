@@ -10,20 +10,37 @@ OUT = ROOT / "index.html"
 
 md_text = SRC.read_text(encoding="utf-8")
 
+# --- tier ladder: the campaign escalates forever ---
+TIER_LABELS = {
+    1: "Tier I · Easy", 2: "Tier II · Normal", 3: "Tier III · Hard",
+    4: "Tier IV · Expert", 5: "Tier V · Nightmare", 6: "Tier VI · Legendary",
+    7: "Tier VII · Mythic", 8: "Tier VIII · Apocalyptic",
+    9: "Tier IX · Godlike", 10: "Tier X · Impossible",
+}
+
+
+def tier_label(n):
+    t = (n - 1) // 5 + 1
+    return TIER_LABELS.get(t, "Tier XI+ · Endgame")
+
+
+def slugify(text):
+    """Match python-markdown's toc slugifier so nav anchors actually work."""
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+
 # --- collect mission headings for the nav sidebar ---
 nav_items = []
 for line in md_text.splitlines():
     m = re.match(r"^## MISSION (\d+) — (.+)$", line)
     if m:
         nav_items.append((int(m.group(1)), m.group(2)))
-tier_of = {}
-for num in nav_items:
-    n = num[0]
-    tier_of[n] = "Tier I · Easy" if n <= 5 else ("Tier II · Normal" if n <= 10 else "Tier III · Hard")
 
+# toc extension gives every heading a real id (the nav links need these)
 body = markdown.markdown(
     md_text,
-    extensions=["tables", "fenced_code", "sane_lists", "smarty"],
+    extensions=["tables", "fenced_code", "sane_lists", "smarty", "toc"],
+    extension_configs={"toc": {"toc_depth": "2-2"}},
     output_format="html5",
 )
 
@@ -32,9 +49,9 @@ nav_links = []
 nav_links.append('<a href="#how-to-use-this-book">How to Use This Book</a>')
 nav_links.append('<a href="#reading-the-coordinates">Reading the Coordinates</a>')
 for num, title in nav_items:
-    anchor = f"mission-{num}".lower()
+    anchor = f"mission-{num}-{slugify(title)}"
     nav_links.append(
-        f'<a href="#{anchor}"><span class="tier">{tier_of[num]}</span>'
+        f'<a href="#{anchor}"><span class="tier">{tier_label(num)}</span>'
         f'<span class="mtitle"><b>Mission {num}</b> — {title}</span></a>'
     )
 nav_links.append('<a href="#epilogue-the-overtaking">Epilogue</a>')
@@ -50,7 +67,7 @@ html = f"""<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Minecraft Overtaken — A Missionary's Guide to Reclaiming the Blocky World</title>
-<meta name="description" content="Fifteen missions. Three tiers of difficulty. One world to take back. A missionary-style Minecraft guide with exact coordinates for every task.">
+<meta name="description" content="A living campaign of Minecraft missions — every one harder than the last. A missionary-style guide with exact coordinates for every task.">
 <style>
 :root {{
   --bg: #0d1117; --panel: #161b22; --panel2: #1c2330; --ink: #e6edf3;
@@ -135,7 +152,8 @@ strong {{ color: #fff; }}
 {body}
 <footer style="margin-top:70px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:13px;">
   Minecraft Overtaken — written in the mission field, block by block.<br>
-  <a href="https://github.com/Walusimbi-Leon1/minecraft-overtaken/releases/download/v1.0/minecraft-overtaken-v1.0.pdf">Download the PDF</a> (v1.0, 49 pages) for offline reading &middot; source markdown in <code>book/part1.md</code>
+  The campaign grows daily: a new, harder mission lands every day.<br>
+  <a href="https://github.com/Walusimbi-Leon1/minecraft-overtaken/releases/download/v1.0/minecraft-overtaken-v1.0.pdf">Download the PDF</a> (v1.0 release) for offline reading &middot; source markdown in <code>book/part1.md</code>
 </footer>
 </main>
 </div>

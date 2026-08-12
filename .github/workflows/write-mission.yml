@@ -1,0 +1,51 @@
+name: Daily Mission Writing
+
+# Writes the next ~2,000-word mission of Minecraft Overtaken every day
+# using the big-pickle model on opencode.ai. Each mission is harder than
+# the last — the campaign escalates forever. Runs from GitHub runners
+# (fresh IPs) so opencode.ai never rate-limits us. Pushing to main
+# auto-deploys GitHub Pages.
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-mission-writing
+  cancel-in-progress: false
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install markdown
+        run: pip install markdown
+
+      - name: Write next mission
+        run: node scripts/write-mission.js
+        env:
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          OPENCODE_API_KEY_2: ${{ secrets.OPENCODE_API_KEY_2 }}
+          OPENCODE_API_KEY_3: ${{ secrets.OPENCODE_API_KEY_3 }}
+          OPENCODE_API_KEY_4: ${{ secrets.OPENCODE_API_KEY_4 }}
+          OPENCODE_API_KEY_5: ${{ secrets.OPENCODE_API_KEY_5 }}
+          GH_PUSH_TOKEN: ${{ secrets.GH_PUSH_TOKEN }}
+          MODEL: big-pickle

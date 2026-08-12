@@ -2,7 +2,8 @@
 
 **A Missionary's Guide to Reclaiming the Blocky World**
 
-*Fifteen missions. Three tiers of difficulty. One world to take back.*
+*A living campaign. Fifteen launch missions, three tiers — and a new,
+harder mission lands every single day.*
 
 The world of Minecraft has been overtaken — by shadow, by chaos, by the
 creatures that own the dark. The Old Builders are gone. But they left one
@@ -18,12 +19,12 @@ The full book is published on GitHub Pages:
 
 **https://walusimbi-leon1.github.io/minecraft-overtaken/**
 
-The raw source is `book/part1.md` (~11,000 words).
+The raw source is `book/part1.md` (~11,000 words and growing daily).
 
 ## Download the PDF
 
-Want the book offline? Grab the print-ready PDF (49 pages: cover,
-contents with page numbers, all 15 missions):
+Want the book offline? Grab the print-ready v1.0 PDF (49 pages: cover,
+contents with page numbers, the first 15 missions):
 
 **https://github.com/Walusimbi-Leon1/minecraft-overtaken/releases/download/v1.0/minecraft-overtaken-v1.0.pdf**
 
@@ -34,6 +35,8 @@ python3 build_pdf.py   # requires weasyprint + markdown
 ```
 
 ## The Missions
+
+The campaign opened with fifteen missions across three tiers:
 
 | Tier | Missions | Difficulty | Theme |
 |---|---|---|---|
@@ -51,6 +54,24 @@ Every mission includes:
 - **The Plan** — step-by-step execution
 - **Success Checklist** — how you will know the mission is complete
 - **Missionary Note** — a reflection from the field
+
+## The Campaign Never Stops
+
+The epilogue said *"Go, and take the next world back."* The mission log
+obeys. Every day, the **Daily Mission Writer** (a GitHub Actions
+workflow powered by the big-pickle model on opencode.ai) writes the
+next mission — roughly 2,000 words — and adds it to the book, the site,
+and the game. The missions escalate forever:
+
+- **Tier IV — Expert** (16–20): the Deeper Dark stirs beneath the
+  reclaimed world — ancient cities, the Warden, trial chambers
+- **Tier V — Nightmare** (21–25): the Wither, raids, netherite
+- **Tier VI — Legendary** (26–30): the End cities, shulkers, elytra
+- **Tier VII — Mythic** (31–35) and beyond: whatever the shadow
+  unleashes next
+
+Each mission is harder than the last. No repeats. No mercy. The site's
+sidebar shows the full, ever-growing campaign.
 
 ## Reading the Coordinates
 
@@ -77,8 +98,6 @@ The published page is generated from `book/part1.md`:
 ```bash
 python3 build_site.py   # regenerates index.html
 ```
-
-Requires the Python `markdown` package (`pip install markdown`).
 
 ## Release Assets
 

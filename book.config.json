@@ -1,0 +1,17 @@
+{
+  "title": "Minecraft Overtaken",
+  "subtitle": "A Missionary's Guide to Reclaiming the Blocky World",
+  "genre": "Minecraft mission guide / playable game log",
+  "author": "Walusimbi Leon (SGSS)",
+  "description": "The world of Minecraft has been overtaken by shadow and chaos. You are the missionary of the block, commissioned to take the world back one mission at a time. Each mission has a briefing, an objective, supplies, exact coordinates, a step-by-step plan, a success checklist, and a missionary note. The campaign escalates forever: every day a new, harder mission is added.",
+  "style": "Direct, instructive, second-person missionary voice. Military-briefing precision crossed with devotional warmth. Concrete block counts and exact X/Y/Z coordinates (sea level Y = 63, spawn at (0, 63, 0)). Numbered plan steps with bold lead-ins. Italic missionary notes that reflect on light, work, and the reclamation.",
+  "characters": "You, the missionary of the block — the last builder commissioned by the Old Builders. The Old Builders (gone, their works fallen to shadow). Creatures of the dark: zombies, skeletons, creepers, the Warden, the Ender Dragon, the elder guardians.",
+  "setting": "A Minecraft world (Java Edition, seed OVERTAKEN, survival, no cheats). Spawn at (0, 63, 0). 15 missions reclaimed the Overworld: home (24,64,12), farm (-45,63,80), Lantern Road to (100,64,100), Watchtower (-120,64,-40), mine (50,16,-70), strongroom (200,30,300), Ironworks (350,64,100), Chasm Bridge (400,70,-200), Nether gate (500,64,-400), Redstone River (620-676,63,300), stronghold (812,34,213), End conquered, ocean monument (950,62,-500), sky city (1200,150,800), and the Beacon of Overtaking at (0,67,0).",
+  "notes": "The epilogue ('## EPILOGUE — THE OVERTAKING') closed the original 15-mission campaign and ended with: 'Go, and take the next world back.' New missions continue AFTER the epilogue and BEFORE '## APPENDIX A'. A deeper darkness stirs: the Old Builders' mistakes wake beneath the world. Missions 16-20 = TIER IV — EXPERT, 21-25 = TIER V — NIGHTMARE, 26-30 = TIER VI — LEGENDARY, 31-35 = TIER VII — MYTHIC, then TIER VIII — APOCALYPTIC and beyond. Each daily mission must be HARDER than the last, escalating relentlessly.",
+  "missionFile": "book/part1.md",
+  "buildSite": "python3 build_site.py",
+  "targetWords": 2000,
+  "minWords": 1500,
+  "apiTimeoutMs": 600000,
+  "maxTokens": 16384
+}

@@ -1455,6 +1455,106 @@ expires — it just changes shape.
 
 ---
 
+# TIER IV — EXPERT
+
+*The beacon burned the shadow off the surface, and the world above is yours — but the dark does not die; it descends. It sank through the stone to the oldest places, where no missionary ever planted a torch, and there it woke a city that listens and a warden that hears. The easy days are finished. From this tier forward, every mission is a descent.*
+
+---
+
+## MISSION 16 — THE CITY THAT LISTENS
+
+**Difficulty: Expert**
+
+### Mission Briefing
+
+The Beacon of Overtaking at (0, 67, 0) did what it was built to do: it burned the shadow off the face of the Overworld. Crops grow at (−45, 63, 80). The Lantern Road holds from spawn to (100, 64, 100). The sea around (950, 62, −500) is calm, and the sky city at (1200, 150, 800) has not seen a phantom in a fortnight. The surface belongs to the light. That is precisely why the shadow left it.
+
+It went down. Down through the soil, down through the stone, down to the deepslate depths where the Old Builders' first enemy still sleeps in a city older than memory. The shadow found that city and poured itself into it like water into a well. Now the sculk spreads through the deep like a black tide — across the floors, up the walls, whispering through the sensors of a civilization that fell before the first torch was ever lit. The city hears again. And the Warden walks.
+
+Field report, missionary. The sculk is climbing. Sensors have been found in caves at Y = 30, then Y = 40, then Y = 52 — each week higher, each week hungrier. The shadow is not trying to hold the deep. It is trying to breach the surface from underneath, to overtake the world a second time, from below, where the Beacon cannot see and no light has ever been planted. The catalyst at the city's heart is feeding. Every death in the deep feeds it. Every careless footstep feeds it. If it is not silenced, the sculk breaks the surface inside a week.
+
+The seat of that shadow is the Heart of the Unmade: a sculk catalyst enthroned on a pedestal of reinforced deepslate at (−1480, −48, 950), in the crossing of the city's four great avenues. It is guarded by three sculk shriekers and by the Warden itself, which does not watch — it listens. Your commission today is to walk into the hearing of the dark and do your work without being heard. You will crouch. You will lay wool. You will break the Heart and bury a light in its chest. If you run, the Warden will find you. If you hide, it will hear your heartbeat. Expert means there is no third mistake.
+
+### Objective
+
+**Descend to the ancient city beneath (−1450, 63, 980), silence all three sculk shriekers, break the Heart of the Unmade at (−1480, −48, 950), and seal its socket with glowstone beneath wool before the Warden claims you.**
+
+### Supplies
+
+| Item | Quantity |
+|---|---|
+| Diamond pickaxe | 1 |
+| Iron pickaxe | 2 |
+| Iron shovel | 1 |
+| Iron sword | 1 |
+| Glowstone | 12 |
+| White wool | 64 |
+| Torches | 16 |
+| Oak planks | 16 |
+| Cooked beef | 12 |
+| Water bucket | 1 |
+| Splash potion of Night Vision | 1 |
+| Golden apple | 1 |
+
+### Coordinates
+
+| Landmark | X | Y | Z |
+|---|---|---|---|
+| Descent shaft mouth | −1450 | 63 | 980 |
+| Shaft bottom | −1450 | −52 | 980 |
+| Tunnel junction / wool door | −1470 | −48 | 965 |
+| Retreat burrow | −1440 | −50 | 1000 |
+| First shrieker | −1465 | −48 | 960 |
+| Second shrieker | −1477 | −48 | 955 |
+| Third shrieker | −1483 | −48 | 958 |
+| Heart of the Unmade | −1480 | −48 | 950 |
+
+The ancient city sprawls beneath a forgotten forest in the world's far northwest, deeper and farther from spawn than any site yet claimed. The descent shaft drops at the city's northeast rim; the great avenue runs south to the heart-crossing, where the four avenues meet. The retreat burrow is not a ruin — you will dig it yourself before anything wakes. Dig it before you need it.
+
+### The Plan
+
+1. **Mark the descent.** At (−1450, 63, 980), clear the ground and dig a 2×1 shaft straight down. Descend one block at a time, alternating which of the two squares you stand in, so you never fall more than a single block. Place one torch every 8 blocks down the wall — 16 torches will light the whole descent. Stop at Y = −52. Do not break through into the open air of the city yet.
+
+2. **Read the dark.** Stand still at the shaft bottom. Drink the splash potion of Night Vision. The city opens west of you: rooftops of a fallen civilization, avenues of sculk, the green pallor of a place the sun forgot. If you hear the skitter of sensors, freeze. The Warden is blind but not deaf; sound is its only sense, and it is always listening.
+
+3. **Build the wool door.** From the shaft bottom, dig a 1×2 tunnel west to (−1470, −48, 965). Before you break into the city, place 4 white wool blocks in the tunnel mouth, a full 2×2 seal. Then break only the two bottom wool blocks to make a crawl-gap. This is your door. You will seal it again on the way out, and if the Warden comes, this door is your only wall.
+
+4. **Dig the burrow.** Before you ever set foot in the city, carve a side tunnel northeast from the junction to (−1440, −50, 1000) — crouch-high, nothing more. Mouth it with 3 oak planks and seal it with 1 wool block when you are not inside. Stock the water bucket here. If the Warden wakes, this is your confessional: go in, close the wool behind you, and sit in the dark without moving until the footsteps pass.
+
+5. **Court the avenue.** Crouch through the crawl-gap. The great avenue runs south to the heart-crossing. Mark the three shriekers in order: the first at (−1465, −48, 960), the second at (−1477, −48, 955), the third at (−1483, −48, 958). Never step on bare sculk. Lay a wool block where your foot will go, stand on it, recover it, and move. Wool makes no sound, and the sensors cannot hear through it. You are not walking; you are translating yourself across the dark.
+
+6. **Silence the sentries.** Take the first shrieker. Cup it in wool — six blocks, one on every face — then break it with your iron pickaxe. The wool drinks the vibration; the city does not hear. Repeat for the second, then the third, always nearest first. If you trigger a shrieker and the Warden rises, do not run. Walk, crouched, to the burrow, and wait until the Darkness passes. A golden apple is for the moment you are caught; a footstep is for the moment you are not.
+
+7. **Lay the light road.** From the junction to the heart, lay a 1-thick carpet of white wool, 2 blocks wide: 30 blocks in 15 pairs, placed while crouching, ending flush at the pedestal's edge at (−1480, −48, 950). This carpet is your road in and your road out. When the Heart breaks, the city will scream — you need to already know the way home by feel.
+
+8. **Ring the altar.** The Heart of the Unmade sits on a pedestal of reinforced deepslate, all four avenues bowing toward it. Place 8 glowstone blocks in a ring around the pedestal: the four cardinal directions first, then the four diagonals, each flush with the floor. This ring is your landmark and your accusation — the first light this city has seen since it fell. When the dark screams, your eyes will know the way out.
+
+9. **Break the Heart.** Stand on the wool carpet at the pedestal's edge, reach across the ring, and break the sculk catalyst. You do not need to keep it; the breaking is the work. In the same breath, drop one glowstone into the empty socket and tuck one wool block over it. The light, hidden but alive, buried in the chest of the dark. The Heart is silenced.
+
+10. **Withdraw and seal.** Walk backward down the carpet, breaking the wool behind you block by block, until you reach the crawl-gap. Break the wool door, then refill the tunnel mouth — 4 wool blocks, or the oak planks if the Warden is close behind. Climb the shaft the way you came, one block at a time. When you step out at (−1450, 63, 980), stand in the sun. The city is below you now. Let it listen to silence.
+
+### Success Checklist
+
+- [ ] Shaft completed: 2×1 descent at (−1450, 63, 980) to Y = −52, torched every 8 blocks.
+- [ ] Retreat burrow dug at (−1440, −50, 1000), sealed with wool, water bucket staged inside.
+- [ ] All three shriekers broken beneath wool shrouds: (−1465, −48, 960), (−1477, −48, 955), (−1483, −48, 958).
+- [ ] White-wool carpet laid 2 wide from the junction (−1470, −48, 965) to the heart (−1480, −48, 950).
+- [ ] Glowstone ring in place: 8 blocks around the pedestal, one per cardinal and diagonal.
+- [ ] Heart of the Unmade broken; socket sealed — one glowstone covered by one wool block.
+- [ ] Carpet broken behind you, tunnel mouth sealed, and you breathe open air at the shaft mouth — the Warden, if it rose, left below with the city.
+
+### Missionary Note
+
+*You went down into a city that listens, and you learned what the shadow has always known but never understood: sound is a kind of light. Every footstep is a lantern. Every careless breath is a beacon. The Warden is what we become when we stop listening — a blind thing that only knows how to strike what moves. Walking back up that shaft, I understood that the missionary's work is not to be loud. It is to be present.*
+
+*The glowstone you buried under wool will burn for a thousand years and never be seen. That is not waste. That is the shape of faith: one small light, held quietly, in the chest of a world that forgot light entirely. The Heart is dead. The city is silent. And you are the one who made it so by making almost no sound at all.*
+
+*They will tell you the light is for the high places — the beacons, the towers, the mounted torches of the Lantern Road. But the light is not for the easy places. It is for the deep ones. It is for the one block of glowstone you leave where no one will ever see it, doing its work forever.*
+
+*— Still commissioned. Still descending.*
+
+---
+
 ## APPENDIX A — READING COORDINATES
 
 The complete cheat sheet for every coordinate in this book.
