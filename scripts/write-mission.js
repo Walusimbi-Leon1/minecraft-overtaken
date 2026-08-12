@@ -112,7 +112,11 @@ async function generateMission(prompt, keyIndex) {
   if (!res.ok) throw new Error(`opencode.ai ${res.status}: ${(await res.text()).slice(0, 200)}`);
   const data = await res.json();
   let content = data?.choices?.[0]?.message?.content || "";
-  if (!content.trim()) throw new Error("empty content from model");
+  if (!content.trim()) {
+    // Dump the raw response so a blocked/failed generation is diagnosable
+    console.error("RAW RESPONSE:", JSON.stringify(data).slice(0, 800));
+    throw new Error("empty content from model");
+  }
   content = content.replace(/<thinking>[\s\S]*?<\/thinking>/gi, "").trim();
   return content;
 }
