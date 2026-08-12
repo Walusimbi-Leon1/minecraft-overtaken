@@ -1652,6 +1652,111 @@ The court sprawls beneath a broken birch forest far east of anything you have cl
 
 ---
 
+## MISSION 18 — THE BONE CROWN
+
+**Difficulty: Expert**
+
+### Mission Briefing
+
+The shadow has learned your method. It watched you break the Heart of the Unmade and silence the city that listens. It watched you carry the Heavy Core home and bury it in the foundation of your own light. It has seen, mission after mission, what one beacon at the center of the world can do to a sky full of dark. And now it has decided to stop copying your light and to copy your death.
+
+Deep in the Nether, in a fortress of black stone at (150, 68, −260), the shadow has gathered the bones of the Old Builders' greatest kings and is forcing the wither skeletons to grind them into skulls. Three skulls. Three curses bound together with soul sand and an eclipse. It is building a Wither — not the wild beast that sometimes claws up from the depths, but a crowned one, anointed, aimed. When the eclipse reaches its zenith between the second and third sunrises, the shadow intends to build that Wither in the foundation beneath the Beacon of Overtaking at (0, 67, 0) and let it unmake everything you have reclaimed: your home, your farm, your road, your tower. Not by raiding. By being the one bright enemy that outshines your light.
+
+Field report, missionary. The first skull is finished. The second is half-carved. The third waits on the eclipse flame. The shadow is slow only because bone is slow. You are faster.
+
+Your commission today is to steal the crown before it is worn. Enter the Nether. Raid the fortress. Cut the skulls from the skeletons' own ribcages. Collect the soul sand. Then — because the shadow is not the only one who can build — you will build the Wither yourself, but in your arena, not its altar: in a grave you dig, in a tunnel you control, beneath a far birch field that no one you love will ever walk. And when it dies, you will take its star, walk home through the ash, and crown the Beacon with a second light.
+
+If the second sunrise finds you without the star, walk west anyway. The work is the work even when it fails. But better: do not fail.
+
+### Objective
+
+**Travel through the Nether, raid the fortress at (150, 68, −260) for 3 wither skeleton skulls and 4 soul sand, raise the Wither in a sealed grave at (−2200, 40, 1900), slay it before the second sunrise, and set its Nether Star into the Beacon of Overtaking at (0, 67, 0).**
+
+### Supplies
+
+| Item | Quantity |
+|---|---|
+| Netherite sword (Looting III) | 1 |
+| Shield | 1 |
+| Diamond pickaxe | 1 |
+| Iron shovel | 1 |
+| Bow (Power III) | 1 |
+| Arrows | 32 |
+| Flint and steel | 1 |
+| Obsidian | 10 |
+| Milk bucket | 1 |
+| Torches | 16 |
+| Cooked beef | 16 |
+| Golden apple | 2 |
+| Splash potion of Healing | 2 |
+| Water bucket | 1 |
+
+The skulls and soul sand are not supplied — you will take them from the dead and the dunes. Ten obsidian build the shortcut home. Four soul sand build the enemy. The netherite blade, drawn from the strongroom at (200, 30, 300), is the last thing the shadow expects you to carry into its own kingdom.
+
+### Coordinates
+
+| Landmark | X | Y | Z |
+|---|---|---|---|
+| Nether gate (existing) | 500 | 64 | −400 |
+| Nether bunker (existing) | 62 | 64 | −50 |
+| Wither-skeleton fortress bridge | 150 | 68 | −260 |
+| Soul sand dune | −100 | 66 | 140 |
+| Arena portal foot (Nether) | −275 | 70 | 238 |
+| Arena portal (Overworld) | −2200 | 63 | 1900 |
+| Arena antechamber | −2200 | 40 | 1900 |
+| Kill tunnel mouth | −2220 | 40 | 1900 |
+| Bone altar | −2200 | 40 | 1900 |
+| Beacon crown point | 0 | 67 | 0 |
+
+The old Nether gate at (500, 64, −400) is your door; the bunker at (62, 64, −50) is your porch — use them, but do not claim them. The fortress bridge lies northeast of the bunker across a sea of lava. The soul sand dune waits southwest of the fortress where the basalt delta begins. The arena portal sits in open basalt at (−275, 70, 238); light it, step through, and the Overworld opens on an empty birch field nobody remembers. Dig your grave there, fight your fight, and come home the same way: through the ash, out the old gate, and west to the Beacon.
+
+### The Plan
+
+1. **Pass the gate.** Bring your supplies to the Nether gate at (500, 64, −400) and step through. You emerge in the bunker at (62, 64, −50). The fortress is northeast. Walk the basalt, do not sprint, and do not trade with the piglins — you did not come to bargain. Your first golden apple is not for this walk.
+
+2. **Court the fortress.** The wither skeletons rule a bridge at (150, 68, −260) spanning a lava sea too wide to jump. Approach from the west, where the bridge meets the land, and mark the landing pad as your fallback. Wither skeletons are tall, fast, and their swords burn; the wither effect is a slow hook. The milk bucket rides on your belt, not in your pack.
+
+3. **Reap the valley.** Do the easy harvest first. Backtrack west-southwest to the soul sand dune at (−100, 66, 140) and mine 4 soul sand — not 3. Four. The Wither's altar needs four and no fewer, and a broken altar in the middle of the fight is a broken plan. Pocket the sand, then return to the fortress. One death at a time.
+
+4. **Reap the kings.** Now earn the crown. On the fortress bridge at (150, 68, −260), fight the wither skeletons one at a time — shield up, sword out, Looting III drinking in every death. Stay on the bridge's west end so you can retreat to the landing pad if a second skeleton joins. Skull chance is one in forty; Looting raises the dead's generosity. When the third skull drops, do not celebrate. The fortress now knows who the thief is.
+
+5. **Plumb the shortcut.** Carry the three skulls and the soul sand through the Nether to the open basalt field at (−275, 70, 238). Place the 10 obsidian in a portal frame — 4 wide, 5 tall — and light it with the flint and steel. Do not step through yet. Stand in the frame, take a breath of ash, and recall what the eclipse means: you are racing the shadow's crown, and this portal is the road that beats it home.
+
+6. **Open the grave.** Step through. The Overworld delivers you to the empty birch field at (−2200, 63, 1900). Mark the portal with 2 torches. At the foot of the easternmost birch, dig a 1×2 shaft straight down to Y = 40 — one block at a time, torches every 6 blocks, 8 torches in all. At the bottom, carve an antechamber 5 wide, 5 tall, and 7 deep, centered at (−2200, 40, 1900). From its west wall, dig the kill tunnel: 2 wide, 2 tall, 20 blocks long, ending at (−2220, 40, 1900). Line the tunnel mouth with 4 cobblestone mined from the chamber walls. This is not a fight. It is a funnel.
+
+7. **Build the enemy.** At the center of the antechamber, place the soul sand in a T — three blocks on the ground, one block on top of the middle. Then place the three wither skeleton skulls, one on each of the risen faces. Stand behind the tunnel mouth when the third skull clicks into place. The Wither does not rise gently. It detonates the air around it, and in that roar you will hear the shadow's disappointment.
+
+8. **Fight the storm.** The Wither is too tall for the antechamber, which is the point: it cannot tower, it cannot charge freely, and its black skulls break the chamber walls but not your funnel. Fight from the tunnel. Draw the bow and put your 32 arrows into its chest while the room blackens. It will chase. When it reaches the tunnel mouth, meet it with the netherite blade — block, strike, block, strike. When its health drops below half, it gains bone armor and arrows mean nothing; commit to the sword, drink the healing potions when your hearts slip below half, and save the golden apples for the moments the wither effect takes hold. The milk bucket is the cure for a fight that goes long. The second golden apple is the cure for a fight that goes wrong.
+
+9. **Claim the star.** The Wither dies with a sound like a collapsing mine. Where it stood, the Nether Star drops, white against the dark of the chamber. Take it immediately — the star is the only thing in this mission that outshines the Wither itself, and the shadow will send a final line of strays down the shaft to rob you of it. Kill them or outrun them. The star in your pack is the crown now.
+
+10. **Return through the ash.** Climb the shaft, reach the portal at (−2200, 63, 1900), and step through to the basalt field at (−275, 70, 238). The bunker is southwest with the sun — walk the Nether by compass and torchlight until you stand on the bunker's obsidian floor. Step through the old gate and emerge at (500, 64, −400) as the second sunrise reddens the east. If the first light is already up, run west. The road from the gate to spawn is 500 blocks of open ground, and you still have 500 more to carry.
+
+11. **Crown the Beacon.** At (0, 67, 0), climb the Beacon of Overtaking and set the Nether Star into the socket at its crown. The star seats itself with a sound like a bell struck underwater. The Beacon's light doubles; a second beam goes up, then a third, then a fourth, until the column of light is the shape of something that cannot be outshone. Stand on the crown and watch the sun come up again. The eclipse is broken. The shadow's crown is yours. The Wither is dead, and you are the one who buried it and wore its star.
+
+### Success Checklist
+
+- [ ] 4 soul sand mined from the dune at (−100, 66, 140).
+- [ ] 3 wither skeleton skulls taken from the fortress bridge at (150, 68, −260).
+- [ ] Shortcut portal built at (−275, 70, 238) in the Nether and lit; Overworld portal framed at (−2200, 63, 1900).
+- [ ] Grave dug: antechamber 5×5×7 at (−2200, 40, 1900) with a 2×2×20 kill tunnel to (−2220, 40, 1900).
+- [ ] Wither summoned on the bone altar at (−2200, 40, 1900) and slain before the second sunrise.
+- [ ] Nether Star recovered and carried back through the arena portal, the Nether, the bunker, and the old gate to (500, 64, −400).
+- [ ] Nether Star seated in the Beacon crown at (0, 67, 0); the beam is doubled.
+- [ ] Survive the crown: stand at (0, 67, 0) at sunrise, eat, and look northeast toward the birch field — a grave you dug holds a silence you made.
+
+### Missionary Note
+
+*You did not defeat the shadow's Wither. You stole its crown first, and then you gave the crown a coffin. That is the difference between the dark and the missionary at last: the dark builds its enemy out of desperation and anoints it with fear; the light digs its own grave, carves its own funnel, and invites the enemy to come where the light already waits. You did not fight the storm. You built a room for it. There is a grave in the birch field now, and it is your cathedral.*
+
+*The skulls of kings are only bones with a bad reputation. The shadow measured them and found them worthy of worship; you measured them and found them worth four blocks of soul sand and a blade's reach. Everything the dark fears enough to build, you can bury. Nothing that bows to the eclipse outlives a missionary who knows how to dig.*
+
+*And the star is yours now, seated in the Beacon's crown, burning over the home you built with your own hands. The Wither was the shadow's last honest weapon. What follows will be stranger — silent cities, sunken courts, kings of bone and water. But you carry the star. You have seen how the light is put in its place: not on a throne, but at the heart of everything that matters.*
+
+*— Still commissioned. Still digging. Still crowned.*
+
+---
+
 ## APPENDIX A — READING COORDINATES
 
 The complete cheat sheet for every coordinate in this book.
