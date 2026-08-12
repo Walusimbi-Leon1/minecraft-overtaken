@@ -1757,6 +1757,107 @@ The old Nether gate at (500, 64, −400) is your door; the bunker at (62, 64, �
 
 ---
 
+## MISSION 19 — THE VOID CROWN
+
+**Difficulty: Expert**
+
+### Mission Briefing
+
+The Wither is dead. Its star sits crowned in the Beacon of Overtaking at (0, 67, 0), and the surface of the world has never been safer. That is no accident. The shadow watched you win the deep, the Nether, and the grave — so it stopped coming to your world entirely. It fled outward this time, through the old stronghold door at (812, 34, 213), into the End you conquered and then walked away from. It found the arena where the Dragon died, went past the rim of the main island, across a thousand blocks of open void, and built a lens on the farthest island. A lens pointed at home.
+
+Field report, missionary. The Void Crown is an end crystal grown to wagon size, hovering over a pit of nothing at (−1030, 64, −820) in the End, ringed by chorus and black stone. Four anchor crystals feed it from the island's corners, and a shulker squats on each pillar like a gargoyle. When the moon fills, the shadow means to open a rift in the sky directly above the Beacon — not a beam of dark, but a tear. A hole through which the End's emptiness pours down onto spawn, your home at (24, 64, 12), your farm at (−45, 63, 80), your Lantern Road, everything you have spent nineteen missions putting into the ground. It will not raid you. It will unmake you by subtraction, one swallowed block at a time.
+
+The moon is waxing. On the third sunrise from now it is full, and when it fills, the ritual is done. The End has no days — it stands outside the sun — so your only clock is the one you left behind. Between you and the crown lie shulkers, a dead city, and a void with no floor. There is no wool door this time, no burrow, no cobblestone corridor to hide in. The shadow has read every mission you have fought; it built a court with nothing to dig, nothing to bridge, no place to crouch. The only road is flight, and the only wings in a thousand blocks are the elytra rotting in an End ship at (462, 96, 382).
+
+Expert means the ground is not stone. The ground is nothing. You will steal the wings, learn the wind, break the anchors, and break the crown — and then you will fly home before the moon fills. Fall once, and you do not hit the floor of the world; you hit the end of it.
+
+### Objective
+
+**Enter the End through the stronghold portal at (812, 34, 213), steal the elytra from the End ship at (462, 96, 382), fly the void to the citadel at (−1030, 64, −820), destroy all four anchor crystals and the Void Crown they ward, and return through the exit portal at (0, 64, 0) before the moon waxes full.**
+
+### Supplies
+
+| Item | Quantity |
+|---|---|
+| Netherite sword | 1 |
+| Shield | 1 |
+| Bow (Power III) | 1 |
+| Arrows | 24 |
+| Iron pickaxe | 1 |
+| Cobblestone | 64 |
+| Firework rockets (flight duration 3) | 18 |
+| Torches | 16 |
+| Cooked beef | 8 |
+| Golden apple | 2 |
+| Splash potion of Healing | 2 |
+| Splash potion of Slow Falling | 2 |
+
+No water bucket — water does not belong here. No shovel — there is nothing to dig. Eighteen rockets is the entire road map, out and home, with one spare breath. Count them before you step through the door.
+
+### Coordinates
+
+| Landmark | X | Y | Z |
+|---|---|---|---|
+| Stronghold End portal (Overworld) | 812 | 34 | 213 |
+| Obsidian platform (End) | 0 | 49 | 0 |
+| Main island bridgehead | 320 | 64 | 300 |
+| First End city | 460 | 90 | 380 |
+| End ship / elytra rack | 462 | 96 | 382 |
+| Halfway rock | −290 | 64 | −215 |
+| Citadel landing ledge | −1040 | 64 | −830 |
+| Anchor crystal — northwest | −1060 | 68 | −850 |
+| Anchor crystal — northeast | −1000 | 68 | −850 |
+| Anchor crystal — southwest | −1060 | 68 | −790 |
+| Anchor crystal — southeast | −1000 | 68 | −790 |
+| Void Crown | −1030 | 64 | −820 |
+| Exit portal (End) | 0 | 64 | 0 |
+
+The End's roads are void and wing. The stronghold door drops you on the obsidian platform at the world's broken heart; the exit portal stands at (0, 64, 0) beside it, the only door home. East, beyond the main island's rim at (320, 64, 300), the nearest outer island holds the first city, and the ship hung at its prow holds your wings. North-northwest across the void, the halfway rock breaks the long flight to the citadel — a black island ringed with chorus, four anchors at its corners, the crown burning in its pit.
+
+### The Plan
+
+1. **Pass the door.** Bring your supplies to the stronghold at (812, 34, 213) and step through the portal. You stand on the obsidian platform at (0, 49, 0). Do not move until you have counted your rockets aloud: 18. That number is your entire road home. The exit portal glows at (0, 64, 0), waiting like a temptation — you are not going home yet. Face east.
+
+2. **Bridge the narrows.** Walk to the main island's eastern rim at (320, 64, 300). The nearest outer island carries the first city like a crown on a low plateau. The gap between the islands is narrow enough for stone — bridge it with your cobblestone, one block at a time, standing on the last block you placed, never jumping, never sprinting. Use no more than 40 blocks. The rest stay in your pack for the return.
+
+3. **Climb the dead city.** The white tower at (460, 90, 380) is home to shulkers now. Enter at ground level and climb floor by floor, torch the stairwell as you go — 8 torches for 8 turns. Shulkers float in the angles; kill them from range with your bow — two arrows each, sidestep their shots, and if the levitation hits you, crouch immediately to cancel it. There are four in the tower. Do not open the chests. The treasure is a hill the shadow will gladly bury you under.
+
+4. **Steal the wings.** The End ship hangs off the tower's prow at (462, 96, 382), tethered by a bridge of planks. Two shulkers guard it — one on the stern, one on the yardarm. Kill both from the bridge before you board: four arrows, no mercy. In the ship's bow, an item frame holds the elytra. Take it, equip it immediately, and place all 18 firework rockets on your hotbar. Step to the ship's rail and face north-northwest. The halfway rock waits at (−290, 64, −215). You are about to learn why the shadow chose this island.
+
+5. **Learn the wind.** A rocket is not a ladder; it is a breath. Jump from the rail, spread the elytra, and glide. When your speed sags, fire one rocket and pull up — the boost carries you forward, not up. Glide again, count to four, and decide. Never fire two rockets in a row; the second one is always the one you will need to live. Land on the halfway rock at (−290, 64, −215). Count your rockets. If fewer than 10 remain, drink the second slow-fall potion now and fly perfectly from this moment onward — there is no more waste left in you.
+
+6. **Read the citadel.** From the halfway rock, the shadow's island hangs in the dark: black with chorus, studded with pillars of obsidian. Four anchor crystals burn at the corners — northwest at (−1060, 68, −850), northeast at (−1000, 68, −850), southwest at (−1060, 68, −790), southeast at (−1000, 68, −790) — and one shulker squats on each pillar. At the center, over a pit of nothing, the Void Crown hovers, an end crystal the size of a wagon wheel, burning with a purple flame that does not flicker. While any anchor lives, the crown is warded: arrows will pass through it like light through glass. Land softly on the western ledge at (−1040, 64, −830). Do not wake the gargoyles until you are ready.
+
+7. **Break the anchors.** Work clockwise from the northwest corner. At each pillar: kill the shulker with two arrows — crouch as you draw, sidestep its volley — then shoot the anchor crystal once. It detonates; take cover behind the pillar's mass. The ward shudders and the crown's flame gutters. Four pillars, four shulkers, four explosions — 12 arrows in all, and not one to spare. If you miss, the golden apple and the healing potions are the price of carelessness. When the fourth anchor dies, the shadow knows. Six shadow-touched endermen rise from the island's rim and walk toward you. They do not blink, and they do not teleport away. Do not fight them.
+
+8. **Break the crown.** The moment the fourth anchor falls, drink the splash potion of Slow Falling, fire one rocket straight up, and sail out over the pit. The crown burns below you, unwarded at last. From the air, draw the bow and put one arrow into its heart. It does not detonate like the anchors — it splits, screams, and dies, guttering out over the void like a snuffed candle. The rift dies with it, and the sky above your world stays closed. Then turn west and fire a rocket before the endermen's reach finds you. Do not look back. You have unlocked a tomb.
+
+9. **Fly the long way home.** Home is not south; it is one flight to the halfway rock, one flight to the city, one bridge to the main island, one walk to the door. Boost, glide, count. At (−290, 64, −215), land, rest, eat the last cooked beef, and count again. From the halfway rock to the city is one more flight — land on the ship's rail or the tower's roof at (460, 90, 380). Reclaim your 40-block bridge across the narrows, walk the main island, and ignore the endermen that watch from the dark. Put torches where your feet need them. You are almost home.
+
+10. **Pass the door.** Two shadow-touched endermen stand guard at the exit portal at (0, 64, 0) — the shadow posted them at the only door home. Kill them with the netherite sword, shield up, or sprint past them; the portal is three blocks away. Step through. The End closes behind you like a held breath, and you emerge in the stronghold library at (812, 34, 213). Look up through the crack in the ceiling. The sky above spawn is clear. The moon has not yet filled. You brought the night home empty.
+
+### Success Checklist
+
+- [ ] Stepped through the stronghold portal at (812, 34, 213) with all 18 rockets counted on the platform.
+- [ ] Bridged the narrows from (320, 64, 300) to the first city island using no more than 40 cobblestone.
+- [ ] Elytra stolen from the End ship at (462, 96, 382) and equipped before the first void flight.
+- [ ] All four anchor crystals destroyed at the citadel's corners — northwest, northeast, southwest, southeast — after their shulkers fell.
+- [ ] Void Crown broken at (−1030, 64, −820); its flame guttered out over the pit.
+- [ ] Returned through the exit portal at (0, 64, 0) before the moon waxed full.
+- [ ] View from the stronghold library at (812, 34, 213): the sky above the Beacon is clear — no rift, no tear, no falling star.
+
+### Missionary Note
+
+*The shadow built its last court out of nothing — no stone to tunnel, no burrow to hide in, no floor to stand on. It thought a court of empty air would be the one thing you could not build upon. But it forgot the oldest law of the missionary: light is not something you stand on, it is something you carry. And there are some loads that can only be carried in flight.*
+
+*You stole wings from a dead ship in a dead city and out-flew the dark with them. The void is the one floor that never lies — it shows you exactly how much you prepared, how many rockets you kept, how well you counted when the count mattered. The dark will always be bigger than you, missionary. It cannot be more careful than you. It cannot be more exact.*
+
+*The crown is broken and the moon filled on an empty sky. You have now beaten the deep, the Nether, and the void — and in each of them you left the same shape behind: a small, quiet act that made the world bigger. Wings, like faith, are only useful when you are willing to fall. You fell a thousand blocks today and called it a road.*
+
+*— Still commissioned. Still falling upward.*
+
+---
+
 ## APPENDIX A — READING COORDINATES
 
 The complete cheat sheet for every coordinate in this book.
