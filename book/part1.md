@@ -1555,6 +1555,103 @@ The ancient city sprawls beneath a forgotten forest in the world's far northwest
 
 ---
 
+## MISSION 17 — THE TRIAL THAT NEVER ENDS
+
+**Difficulty: Expert**
+
+### Mission Briefing
+
+The city sleeps again, but the shadow does not die — it travels. When you broke the Heart of the Unmade at (−1480, −48, 950), the darkness did not scatter; it sank east, under the mountain plate, through two thousand blocks of stone, and poured into the one place the Old Builders left behind when they abandoned the world: their trial chambers. In the first days, the Old Builders did not hand down strength — they tested for it. They built courts where a champion walked through four trials and took a Heavy Core from the vault as proof of worth. The shadow found that court, corrupted the four spawners, and turned the proving ground into an engine of despair.
+
+Field report, missionary. The four trial spawners no longer test. They churn. Each one runs an endless ominous trial, summoning wave after wave that fights not for the court but for the dark. Every death in those halls feeds the sculk beneath the floor. A corrupted Breeze now rules the aerie — it has learned to catch arrows in the wind and throw them back at the archer. And at the center of it all, in the vault at (1845, −18, −1155), the Heavy Core sits on its plinth, waiting. That core is the keystone of the court, the weight a champion once carried up into the world. The shadow intends to crown it: a black beacon rising from the ravine east of your farms, broadcasting darkness instead of light.
+
+It is close. Scouts have seen the breach at (1820, 63, −1180) glowing at night, a green pulse like a heartbeat in the stone. When the core is crowned, the corruption will not stay below. It will boil up out of the east, cross the Lantern Road, climb the farm at (−45, 63, 80), and choke the roots of everything you built. The Beacon of Overtaking at (0, 67, 0) can hold the surface against a siege of shadows — but not against a second beacon. The shadow has learned from you, missionary. It saw what a high place with a bright heart can do. Now it wants one of its own.
+
+The city taught you to be quiet. The court will teach you to be loud and survive it. Four trials, four keys, one vault, one long road home through hostile ground. And one deadline: the core must be planted as the keystone beneath the Beacon before the third sunrise. If the sun rises twice after you take the core and it is still unplanted, the shadow wears it as a crown, and the next mission begins beneath a light that burns the wrong way.
+
+### Objective
+
+**Descend into the corrupted trial court beneath (1820, 63, −1180), break all four corrupted trial spawners, take the Heavy Core from the vault at (1845, −18, −1155), and plant it as the keystone beneath the Beacon of Overtaking at (0, 60, 0) before the third sunrise.**
+
+### Supplies
+
+| Item | Quantity |
+|---|---|
+| Iron sword | 1 |
+| Shield | 1 |
+| Iron pickaxe | 1 |
+| Iron shovel | 1 |
+| Torches | 24 |
+| Cobblestone | 32 |
+| Oak planks | 8 |
+| Gravel | 16 |
+| Cooked beef | 8 |
+| Water bucket | 1 |
+| Splash potion of Healing | 2 |
+| Golden apple | 1 |
+
+### Coordinates
+
+| Landmark | X | Y | Z |
+|---|---|---|---|
+| Ravine breach / shaft mouth | 1820 | 63 | −1180 |
+| Shaft bottom / antechamber | 1820 | −16 | −1180 |
+| Hall of the First Trial | 1808 | −18 | −1194 |
+| Hall of the Second Trial | 1832 | −18 | −1208 |
+| Aerie of the Third Trial | 1856 | −24 | −1176 |
+| Pit of the Fourth Trial | 1836 | −28 | −1140 |
+| Vault of the Heavy Core | 1845 | −18 | −1155 |
+| Escape shaft foot | 1860 | −16 | −1148 |
+| Escape shaft mouth | 1860 | 63 | −1148 |
+| Hilltop checkpoint | 1200 | 78 | −780 |
+| Heart keystone socket | 0 | 60 | 0 |
+
+The court sprawls beneath a broken birch forest far east of anything you have claimed — deeper and farther from spawn than the ancient city itself. The ravine breach drops into the antechamber at the court's western rim. From there, the four trial halls surround the central vault like spokes around a hub: the first hall northwest, the second south, the aerie and the pit to the east. The escape shaft is not a ruin — you will dig it yourself before anything wakes, and you will be glad you did.
+
+### The Plan
+
+1. **Breach the ravine.** At (1820, 63, −1180), the earth has cracked open. Widen the crack into a 1×2 shaft and descend one block at a time, alternating your two standing squares so you never fall. Place one torch every 8 blocks — 10 torches light the whole descent. Stop at the floor at (1820, −16, −1180). Do not enter the court until you have read it.
+
+2. **Seal the doors.** Stand in the antechamber and map the court from the shadows. Four halls bow outward; the vault sits at the heart. Before you wake anything, take your 32 cobblestone and seal every corridor you will not use first — four doors, 8 blocks each, mortared tight. A trial court has one rule: only the tested may advance. You are not here to be noble. You are here to make the court fight you one trial at a time.
+
+3. **Earn the first key.** Step into the Hall of the First Trial at (1808, −18, −1194). The corrupted spawner ignites and summons six zombies, one of them armored in iron. Fight them in the chokepoint you sealed in step 2 — shield up, sword out, one at a time. When the last one falls, break the spawner with your iron pickaxe. It spits out the first Trial Key. Key 1 of 4.
+
+4. **Dig the second road.** Your ears will tell you the court is waking. Do not answer. Before you touch the second hall, climb to the eastern edge of the antechamber, start a 1×1 shaft at (1860, −16, −1148), and dig straight up to the surface. Torch it every 6 blocks — 8 torches. This is your flight home, and you will need it sooner than you want. When you break through at (1860, 63, −1148), stand in the air for one breath, then go back down.
+
+5. **Run the gauntlet.** The Hall of the Second Trial at (1832, −18, −1208) is an arrow corridor: tripwires string head-high across the floor, dispensers wait in the walls, and a skeleton spawner burns at the far end. Your shovel is your friend. Drop the water bucket and flood the corridor floor, then swim beneath the tripwires — the strings hang at standing height, and the water will carry you under them. The skeletons' arrows slow in the water; your shield catches the rest. When you reach the spawner, break it. Key 2 of 4.
+
+6. **Face the storm.** The Aerie of the Third Trial at (1856, −24, −1176) is a twelve-block-tall chamber ringed with pillars, and the corrupted Breeze rules the sky above it. Do not draw your bow — the Breeze catches arrows and throws them back. Let it fire first. Absorb its wind charge on the shield, advance during the stagger, and strike with the sword when the storm holds still. When it drops a wind charge, pick it up and throw its own storm in its face, then finish it on the ground. Climb the pillars and break the spawner in the aerie's crown. Key 3 of 4. If you fall, the golden apple is for the fall — not for the climb.
+
+7. **Drown the pit.** The Pit of the Fourth Trial at (1836, −28, −1140) spans a ravine too wide to jump. The corrupted spawner pours eight spiders across it. Bridge the gap with your 8 oak planks, stand at the middle, and sweep them into the ravine with your sword — the walls below are sheer, and spiders cannot climb what they cannot reach. Break the spawner. Key 4 of 4.
+
+8. **Take the weight.** The Vault of the Heavy Core at (1845, −18, −1155) sits in the shadow of all four halls. Set each key into its housing — four keys, four trials, in the order you earned them. The vault grinds open, and there it is: the Heavy Core, the keystone of the Old Builders' whole court, thrumming with everything the shadow has fed it. Take it. The moment it leaves the plinth, the Endless Trial begins: the court bellows, the corrupted spawners flicker with borrowed life, and the shadow knows exactly where you are. You have until the third sunrise. Move.
+
+9. **Climb to light.** Two corrupted breezes drop from the aerie as you cross the antechamber. Do not fight them — run. You know the way: east to (1860, −16, −1148), up the shaft you dug in step 4, one block at a time, 8 torches showing the way. Break through at (1860, 63, −1148) and face west. The road home is 1,800 blocks long, and the core in your pack is a dinner bell. Every hostile within 32 blocks will walk straight at you. Eat the cooked beef on the move. Do not stop for loot. Do not stop to fight what you can outrun.
+
+10. **Plant the keystone.** At (1200, 78, −780), crest the hill, catch your breath, and look west — the Beacon of Overtaking is a needle of light on the horizon. From the hill, the ground slopes down to the home fields and the gate of your own land. At (0, 63, 0), dig three blocks down to the foundation of the Beacon and carve a 1×1 socket at (0, 60, 0). Set the Heavy Core into the stone. The hum stops. The shadow's beacon dies before it is ever lit. Climb to (0, 67, 0), stand on the Beacon's crown, and watch the sunrise you earned.
+
+### Success Checklist
+
+- [ ] Descent shaft dug at (1820, 63, −1180) to Y = −16, torched every 8 blocks.
+- [ ] All four corridor doors sealed with 32 cobblestone before combat begins.
+- [ ] Four corrupted trial spawners broken: first hall (−1194), arrow corridor (−1208), aerie (−1176), spider pit (−1140) — all four keys recovered.
+- [ ] Vault of the Heavy Core opened; the Heavy Core taken from (1845, −18, −1155).
+- [ ] Escape shaft dug from (−16, −1148) to the surface at (1860, 63, −1148), torched every 6 blocks.
+- [ ] Heavy Core planted at (0, 60, 0) beneath the Beacon before the third sunrise.
+- [ ] Sunrise view from the Beacon at (0, 67, 0): the eastern horizon is dark, but the weight is in the ground, and the light holds.
+
+### Missionary Note
+
+*The Old Builders did not put the Heavy Core at the end of the trial as a reward. They put it there as a teaching. Any champion could defeat the four trials — that was the easy part. The hard part was carrying the weight home. You can win every fight and still lose the mission on the road, with the prize in your hands and your eyes on the horizon. The dark knows this. That is why it hunts the carrier and not the fighter.*
+
+*The shadow wanted a crown. You gave it a keystone instead. That is the whole of the mission's lesson: the darkness wants to be worn, lifted up, displayed, adored. Light wants to be buried — set at the bottom of things, where no one sees it, holding up everything that is seen. The glowstone under the sculk. The core under the Beacon. The weight at the bottom of the court that keeps the whole structure honest.*
+
+*They will say the missionary's work is to fight. It is not. It is to carry. And what you carried this time was not a block of ancient stone — it was the proof that the land you reclaimed can bear weight again. The Beacon stands on something now. So do you.*
+
+*— Still commissioned. Still carrying.*
+
+---
+
 ## APPENDIX A — READING COORDINATES
 
 The complete cheat sheet for every coordinate in this book.
