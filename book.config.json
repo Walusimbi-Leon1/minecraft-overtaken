@@ -13,5 +13,5 @@
   "targetWords": 2000,
   "minWords": 1500,
   "apiTimeoutMs": 600000,
-  "maxTokens": 16384
+  "maxTokens": 24000
 }
