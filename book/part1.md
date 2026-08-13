@@ -1858,6 +1858,110 @@ The End's roads are void and wing. The stronghold door drops you on the obsidian
 
 ---
 
+## MISSION 20 — THE CHOIR THAT FELL
+
+**Difficulty: Expert**
+
+### Mission Briefing
+
+The Void Crown is broken. The moon filled and found an empty sky, and for one night the world above the stone was entirely yours. The shadow did not die with the crown — it descended, as it always does, into its oldest reserve. It went east, past the dark forest edge, to a mansion in a clearing that no map in your strongroom remembers: the Hollow House at (2100, 63, 1450), where a thousand years ago the Old Builders caged their four light-singers. The allays. The first songs of the making of the world, kept in iron bars instead of open air.
+
+The mansion is ruled by the Hollow Court — a ravager at the gate, evokers in the wings, axemen in the halls, and at the heart of it all the Hollow Monarch, wearing a totem of undying smeared black with everything the shadow has fed it. The court has not been drinking the allays' song for pleasure. It has been recording it. The totem is that recording, sung backwards. At the second sunset from now, the Monarch means to let it play — and when the backwards song reaches its last note, the Great Raid kindles: nine waves, nine fronts, every reclaimed site struck in the same hour. Your home at (24, 64, 12). Your farm at (−45, 63, 80). Your tower, your bridge, your ironworks, your sky city, and the Beacon itself. The dark has never once attacked all of it at once. It has learned the cost of attacking any of it.
+
+The clock is the shape of this mission. The second sunset is the kindling hour, and the shadow has shut the roads that would cheat it — the old Nether gate at (500, 64, −400) is watched by patrols, and the bunker at (62, 64, −50) echoes with footsteps that are not yours. Your road is the long road: 2,100 blocks overland, east and south, into a dark forest that grows no kinder at dusk.
+
+And one more sorrow, missionary. The night the Void Crown fell, the shadow's raiders emptied the strongroom at (200, 30, 300). No netherite. No rockets. No soft armor. You will go in iron: one sword, one shield, eight arrows, one golden apple. Count them twice. The mansion will arm you from its own dead — every evoker in the court drops its totem, every axeman may leave his axe — but the first hour is fought bare. The shadow has read every mission you have fought, found your armory, and closed your shortcuts. It has built the one court it thinks you cannot win. Expert means you walk into that court anyway, and you take the song back.
+
+### Objective
+
+**Walk to the Hollow Mansion's gate at (2100, 63, 1470), free all four allays from their cages, slay the Hollow Monarch at (2100, 63, 1450), ring the heart-hall plinth with 4 glowstone and purify the Corrupted Totem in that light, then carry the totem and the choir back to the Beacon of Overtaking at (0, 67, 0) before the second sunset.**
+
+### Supplies
+
+| Item | Quantity |
+|---|---|
+| Iron sword | 1 |
+| Shield | 1 |
+| Iron pickaxe | 1 |
+| Bow (Power II) | 1 |
+| Arrows | 8 |
+| Torches | 8 |
+| Cooked beef | 6 |
+| Water bucket | 1 |
+| Golden apple | 1 |
+| Glowstone | 4 |
+| Cobblestone | 16 |
+| Splash potion of Healing | 1 |
+
+No netherite. No rockets. No night vision. The strongroom at (200, 30, 300) is a gutted shell — the shadow raided it the night the Void Crown fell. The mansion will arm you from its own dead. Eight arrows is not a mistake; it is a budget. Four glowstone is not a decoration; it is the entire ritual, all four blocks of it.
+
+### Coordinates
+
+| Landmark | X | Y | Z |
+|---|---|---|---|
+| Dark forest edge | 1800 | 63 | 1200 |
+| Mansion courtyard / ravager ground | 2100 | 63 | 1480 |
+| Front doors | 2100 | 63 | 1470 |
+| Foyer | 2100 | 63 | 1460 |
+| Heart-hall gap | 2100 | 63 | 1455 |
+| Heart plinth / Hollow Monarch | 2100 | 63 | 1450 |
+| Cage — West Wind | 2084 | 64 | 1432 |
+| Cage — East Star | 2116 | 64 | 1432 |
+| Cage — South Root | 2084 | 64 | 1468 |
+| Cage — North Leaf | 2116 | 64 | 1468 |
+| Beacon crown | 0 | 67 | 0 |
+
+The mansion stands in a dark-oak clearing about 2,550 blocks from spawn as the crow falls — farther than any site yet claimed. It is a two-story hall of dark oak and stone: four wings meet at the foyer, and the heart hides behind a one-block gap in the north wall. Do not climb to the second floor. The upper halls have rotted into a nest of glass-winged whine. The four cages sit one per wing, each behind iron bars, each with a singer inside who cannot see you yet. This mission is not a descent. It is a stand.
+
+### The Plan
+
+1. **Take the slim kit.** At spawn, load exactly what the table allows. Do not visit the strongroom — there is nothing left to take, and the sight of it will only slow your march. Set out at dawn. Follow the Lantern Road east to (100, 64, 100), then cut southeast across the fields toward the dark forest edge at (1800, 63, 1200). Sprint, eat the beef on the move, and do not stop for anything that does not block your exact line. The second sunset is not a threat. It is a countdown.
+
+2. **Court the courtyard.** The mansion clears the treeline at (2100, 63, 1480), and the gate is a ravager wearing an evoker's bell. It is the only alarm the court trusts — the bell rings only in combat, and the bell is the whole mansion's signal. Kill the ravager before it snorts that bell: sidestep its charge, let it break against the courtyard wall, then strike the flank past the shoulder — twice, sidestep, twice. Do not spend arrows. Do not spend the golden apple. The shield is for its jaws, not its shoulders. When it falls, take a breath. The bell never rang.
+
+3. **Read the house.** Enter through the front doors at (2100, 63, 1470). The foyer at (2100, 63, 1460) is silent except for four thin threads of song — west, east, south, north. Light two torches: one at the door so the way out is always lit, one at the north wall where the heart hides. Place them now, while the silence still holds. You will be glad of both before the hour is done.
+
+4. **Break the first cage.** Take the west hall to the Cage of the West Wind at (2084, 64, 1432). An evoker stands before the bars, and his fangs carve lines across the floor toward you. Do not fight at range — your 8 arrows are not for evokers. Shield up, close to touching distance, then two strikes, a sidestep, two more. His fangs erupt in a line; walk sideways, never backward. When he dies he drops his totem of undying — take it; the house has armed you. Break two iron bars with the pickaxe. The allay inside is pale blue and trembling. Right-click it while holding one of your torches — it takes the torch and will not drop it. It is bound to you now, and it will follow you anywhere.
+
+5. **Run the west hall back.** Two vexes phase through the corridor wall to meet you — glass-winged, sword-armed, and unliving. This is the house's first true lesson: no burrow, no wool door, no wall will save you from things that pass through walls. Sprint back to the foyer and meet them on the open floor. The shield catches their dance; the sword answers it. Four strikes each, no more than you need. They drop nothing. They were never meant to.
+
+6. **Take the second and the third.** East wing: the Cage of the East Star at (2116, 64, 1432), guarded by a vindicator. Kill the axeman with shield and sword — block, strike, block — and take his iron axe if he offers it. Break two bars, give a torch to the second allay, and let the song sharpen. Then the south wing: the Cage of the South Root at (2084, 64, 1468), where two vindicators come at you together. This is the only door in the house that opens two ways. Use the doorway as the brace it is — only one can swing at a time. Block the first, strike the second, trade places, repeat. Free the third allay. Third torch. The house is learning your name now, and the walls hum.
+
+7. **Quiet the north.** The Cage of the North Leaf at (2116, 64, 1468) holds an evoker with two vexes already circling its bars. Kill the evoker first — his totem is the second the house owes you — while the vexes whine at your ears. They hit hard; the splash potion of Healing is for exactly this room and no other; drink it when your hearts slip below half. When the evoker's totem drops, break the bars, free the fourth allay, and give it the fourth torch. Four singers, four lights, one column of song, and the whole court now knows exactly where you stand.
+
+8. **Mark the heart.** Return to the foyer. The north wall has a one-block gap at (2100, 63, 1455), and beyond it the heart-hall: a stone plinth at (2100, 63, 1450), and on it the Corrupted Totem, black and thrumming. The Hollow Monarch stands before it in a mantle of shadow flat and heavy as wet wool. The moment you step through the gap, the wall seals behind you and five vexes phase in — one from every wall and one from the ceiling. This is the stand. There is no corridor to flee. There is no burrow to hide in. The room is the fight.
+
+9. **Dance the Monarch.** Kill the vexes first — four sword-strikes each, keep moving so the Monarch's fangs land where you were, not where you are. Then close with the Monarch. His fangs carve lines; his hands weave; his crown of shadow does not protect him from iron. Block, strike, sidestep, close again. When he dies, he drops his own totem — the Corrupted Totem, the backwards song, the kindling of the Great Raid. Do not touch it yet. Not yet.
+
+10. **Sing the plinth.** Place the 4 glowstone in a ring around the plinth: (2099, 63, 1450), (2101, 63, 1450), (2100, 63, 1449), (2100, 63, 1451). Stand at the plinth with the Corrupted Totem in your main hand. The four allays settle at the four corners of light, their torches burning like small suns. Wait — count ten heartbeats, no more, no less. The totem's black splits along crystal seams, and light sings out of it — not a scream, a song. The Corrupted Totem is the Choir Totem now, and it hums against your hand. Take back the 4 glowstone — every block must travel home with you to finish the work.
+
+11. **Win the retreat.** The corridors are silent; the court is dead. Walk out the front doors at (2100, 63, 1470), through the courtyard, into the forest. The sun is low. That is the plan — night is not your enemy now, it is your deadline. March west by the light of the choir: four allays, four torches, one column of song in the dark. If a creeper clusters the line, kill it with two strikes and keep moving. Allays keep pace, and if one strays it finds you again — they are bound to the torch you gave them, and the torch is bound to you. Do not stop to loot. The forest is not yours to keep. At (1800, 63, 1200) the trees thin, and from there it is open ground all the way home. Sprint past the farm — do not detour for it. The second sun rises behind you, and the Beacon is a needle on the horizon.
+
+12. **Seat the choir.** At (0, 63, 0), climb the Beacon of Overtaking to the crown at (0, 67, 0). Place the 4 glowstone in a ring on the crown, take the Choir Totem in your hand, and stand in the beam. The allays gather at the four corners, and the beam drinks the song and throws it back — four new threads braid into the old column of light. The Corrupted Totem's last black seam gives, and the Great Raid that was kindling in the mansion's heart dies unlit, three thousand blocks away, without ever being born. The allays hover over the crown, free, singing nothing in particular and everything at once. Watch the sun set on the second day from the top of the world. The shadow emptied your armory, closed your roads, and armed its last house — and you took it with an iron sword and a song.
+
+### Success Checklist
+
+- [ ] Mansion breached: ravager at (2100, 63, 1480) slain with sword strikes; the alarm bell never rang.
+- [ ] All four allays freed: West Wind (2084, 64, 1432), East Star (2116, 64, 1432), South Root (2084, 64, 1468), North Leaf (2116, 64, 1468) — each holds a torch and follows.
+- [ ] Hollow Court silenced: three evokers and four vindicators dead; evoker totems taken from the dead.
+- [ ] Hollow Monarch slain at (2100, 63, 1450); the Corrupted Totem taken from its body.
+- [ ] Heart-hall ring completed: 4 glowstone placed around the plinth; the totem purified in the light of the choir.
+- [ ] The choir survived the long road: all four allays stand at (0, 63, 0) before the second sunset.
+- [ ] Beacon crowned: 4 glowstone ring placed on the crown at (0, 67, 0); the Choir Totem held in the beam; the Great Raid dies unlit.
+- [ ] Survive the second sunset from (0, 67, 0): the eastern horizon is quiet — no raiders, no smoke, no kindling anywhere you have ever built.
+
+### Missionary Note
+
+*The shadow never understood the allays. It heard their song and thought it was fuel — something to be drunk, recorded, played backwards, spent. But a singer is not the song, and light is not burned by being sung. The mansion fed on a thousand years of that light and grew only a totem with cracks in it. You carried the singers themselves away, and the light left with them. The dark always mistakes the vessel for the value. It is the oldest error in the world, and you have now profited from it twice in one mission: it emptied your armory and thought you would come bare, and it caged the light and thought the light would stay.*
+
+*You went into the hardest house the Overworld owns with an iron sword and eight arrows, and the house fed you everything else. That is the missionary's arithmetic: scarcity is not weakness, it is honesty. It tells you exactly what you are — and what you are, it turns out, is enough. A shield, a sword, a count you kept, a song you refused to let die. The shadow gave you the hardest test it could build, and the test broke because a broken test does not change what the missionaries do.*
+
+*And the allays follow you now. Not because you are their keeper — you are not. They follow you because you broke the cage, put a small light in each of their hands, and carried them to a bigger one. That is the whole shape of this work, missionary. Every mission is the same four steps: find what the dark has caged, break the bars, give it a light to hold, and walk home together where the bigger light waits.*
+
+*— Still commissioned. Still singing.*
+
+---
+
 ## APPENDIX A — READING COORDINATES
 
 The complete cheat sheet for every coordinate in this book.
