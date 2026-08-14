@@ -1962,6 +1962,118 @@ The mansion stands in a dark-oak clearing about 2,550 blocks from spawn as the c
 
 ---
 
+# TIER V — NIGHTMARE
+
+*The light won the surface, and so the shadow learned the one thing it never knew: it can build. The Unlight has risen — a black beam in the drowned basin that drinks light instead of giving it, a tower that mirrors the Beacon block for block, a Warden crowned to keep it. Nightmare is not a warning of what comes next; it is the name of what is already here. The easy days are finished, missionary — from this tier forward, every descent is made against a thing that knows exactly what you are.*
+
+---
+
+## MISSION 21 — THE BLACK BEACON
+
+**Difficulty: Nightmare**
+
+### Mission Briefing
+
+The Choir Totem sang at (0, 67, 0), the Great Raid died unlit, and for a fortnight the light held. Crops grow. The road glows. The allays circle the Beacon like four notes of a song that cannot end. That fortnight was the shadow's lesson time. It studied the Beacon the way a thief studies a locked chest: not to break it, but to build one that looks just like it. And now, in a drowned basin three and a half thousand blocks southeast of everything you reclaimed, a second tower stands in the fog — a hollow needle of blackstone rising from a dead mangrove swamp, crowned with a lodestone the shadows have corrupted into a Black Sun.
+
+The Black Sun does not shine. It drinks. Its beam pours downward, not upward, and where it touches the world it eats the light out of the air: a dome of perpetual dusk a hundred blocks wide, where phantoms wheel at noon and sculk spreads across the drowned ground like ink across wet paper. The shadow has stopped copying your light and started negating it. Field report, missionary: the far lamplight of the Lantern Road flickers at night. The sky over the sky city at (1200, 150, 800) dims by one shade every sunset. The Black Beacon is not a fortress. It is a mouth, and it is aimed at your column of light block for block.
+
+It is guarded by the Unmaker — a Warden the shadow dragged up from the sculk of the basin and bound with four rings of gilded blackstone at the tower's base. The tower's heart is tied to its life: while the Warden lives, the tower cannot be opened, and while the tower stands, the Unlight drinks. You cannot sneak past this one, missionary. You cannot lay wool, seal a burrow, or count heartbeats in the dark. The city that listens taught you to be silent. Nightmare means you are going to walk back into that silence and break it on purpose.
+
+If the Black Beacon drinks three sunsets, the beam inverts: the Lantern Road goes black from the far end home, the Beacon of Overtaking gutters like a drowned candle, and every torch you have planted in nineteen missions turns to shadow. You leave at dawn. No mansion to plunder this time, no iron swords of the dead to arm you — you carry everything you need, and it is exactly enough. The shadow learned how to build from watching you. Time to teach it what a builder does when the building fights back.
+
+### Objective
+
+**Travel to the drowned basin at (−2700, 63, 2250), break the four gilded binding rings, slay the Unmaker Warden in the arena at (−2700, 60, 2250), climb the hollow tower to the crown at (−2700, 106, 2250), break the Black Sun lodestone with the diamond pickaxe, and seat 4 glowstone in a ring in its socket before the Black Beacon has drunk three sunsets.**
+
+### Supplies
+
+| Item | Quantity |
+|---|---|
+| Netherite sword (Sharpness V) | 1 |
+| Shield | 1 |
+| Diamond helmet | 1 |
+| Diamond chestplate | 1 |
+| Diamond leggings | 1 |
+| Diamond boots (Feather Falling IV) | 1 |
+| Bow (Power IV) | 1 |
+| Arrows | 24 |
+| Diamond pickaxe | 1 |
+| Iron pickaxe | 1 |
+| Glowstone | 4 |
+| Cobblestone | 48 |
+| Torches | 16 |
+| Cooked beef | 12 |
+| Water bucket | 1 |
+| Golden apple | 2 |
+| Splash potion of Healing II | 2 |
+| Splash potion of Slow Falling | 1 |
+
+The gilded rings, the Warden, and the Black Sun are not supplied — you will break them where they stand. Four glowstone is the entire crown of the mission; count them onto your hotbar before you leave spawn and do not let them leave your pack for any reason. Forty-eight cobblestone is the wall between you and an unmaker.
+
+### Coordinates
+
+| Landmark | X | Y | Z |
+|---|---|---|---|
+| Drowned basin rim | −2400 | 63 | 2300 |
+| Shadow-dome edge | −2650 | 63 | 2250 |
+| Binding ring — north | −2700 | 60 | 2234 |
+| Binding ring — east | −2686 | 60 | 2250 |
+| Binding ring — south | −2700 | 60 | 2266 |
+| Binding ring — west | −2714 | 60 | 2250 |
+| Arena floor | −2700 | 60 | 2250 |
+| Tower base / shaft door | −2700 | 61 | 2250 |
+| Climb checkpoint ledge | −2700 | 86 | 2250 |
+| Black Sun / crown socket | −2700 | 106 | 2250 |
+
+The drowned basin lies southeast of the Hollow Mansion's forest, past the last dry tree, in a mangrove swamp gone black and silent. The shadow dome stands at its heart, a hundred-block curtain of deep dusk. Within it, the ground is bare sculk and the air is cold. The tower rises from the basin's exact center — a hollow square needle of blackstone with a single interior shaft, a ladder mortared into the east wall, and an open crown where the Black Sun hangs over the world like a held breath.
+
+### The Plan
+
+1. **March the long road.** At dawn, leave spawn with the full kit on your back. Follow the Lantern Road east to (100, 64, 100), then cut southeast across the fields, past the broken birch, keeping the Hollow Mansion well to your south. Do not stop for loot, do not detour for your farms, do not answer the shadow that calls your name from the treeline. Eat the cooked beef on the move. The road is 2,600 blocks; the clock is three sunsets. Cover it by midday if you run with intention.
+
+2. **Mark the rim.** At the drowned basin rim at (−2400, 63, 2300), stop. The shadow dome hangs before you like a bruise on the air, and the Black Beacon's needle rises out of it — too straight, too black, a profanity against every tower you ever built. Before you enter, plant 4 torches at the four compass points of the rim: (−2400, 63, 2284), (−2416, 63, 2300), (−2400, 63, 2316), (−2384, 63, 2300). These are your road home. The dome will close behind you like a mouth, and you will need stars that do not go out.
+
+3. **Raise the walls.** At the dome's edge at (−2650, 63, 2250), crouch low and lay your arena before the fight begins. Carry 32 cobblestone to the tower's foot and build four pillars in a square around the arena floor at (−2700, 60, 2250): one 2×2×2 pillar 8 blocks north, one south, one east, one west of center. Place 4 torches on top of each pillar — 16 torches in all, one per pillar face — so the arena is ringed with light. The pillars are not walls; the Unmaker's sonic boom tears through stone. The pillars are anchors: places to turn around, to break its attention, to catch your breath when its Darkness closes your eyes. Build them now, while the Warden still sleeps beneath the sculk.
+
+4. **Court the rings.** Walk softly to the tower's base. Set into the sculk at the four compass points are slabs of gilded blackstone, each one a single block glowing dull gold against the black: north at (−2700, 60, 2234), east at (−2686, 60, 2250), south at (−2700, 60, 2266), west at (−2714, 60, 2250). These are the chains. Do not crouch. Do not sneak. This is the mission where you learn to be loud on purpose. Take the iron pickaxe and break the north ring. The sculk screams beneath your feet. Break the east ring. The scream answers. Break the south, then the west. Four rings, four screams — and beneath the tower, the sculk roils like water coming to a boil.
+
+5. **Raise the Unmaker.** Stand at the center of the arena at (−2700, 60, 2250) and wait. Do not run. Do not hide. The sculk at the tower's base splits and the Warden claws up out of the basin — blind, crowned with chains, its heart a purple wound in its chest. It is taller than the dark you have ever faced, and it is screaming in a way that is not sound. Draw the netherite sword. You have run from this since the city that listens; every silent step you ever took was a debt, and this is the payment.
+
+6. **Fight the Unmaker.** The Warden is blind. It hears your boots, your breath, your heartbeat. Walk to make noise, sprint to reposition, and when its chest gathers with pale light, sprint wide — the sonic boom is a straight line and it will pass through your pillars like they were smoke. Use the pillars to break its attention, not its beam: put one between you and it, go silent behind the stone, and when it begins to dig toward your last sound, step out and strike. Two hits, three hits, then run. Arrows are for the moments it loses you — power IV shafts into its chest, every one landing, none wasted; you have 24 and 24 is all you get. Golden apples are for the hits you cannot dodge. Splash healing is for the sonic booms you cannot outrun. When its roar presses Darkness over your eyes, do not stop moving — the torches on the pillars are your stars; count them. The Warden dies the way all great darkness dies: not by a single blow, but by refusing to leave you alone until it has nothing left.
+
+7. **Take the proof.** The Unmaker falls with a wet collapse, and the sculk recedes from the basin floor like a tide going out. It drops a sculk catalyst — the only one in ten thousand blocks, the seed of everything it fed on. Take it. This is not loot; it is proof that the thing is dead, and it will matter again. The tower's base gapes open at (−2700, 61, 2250). The shadow sealed it while the Warden lived. The seal is broken. Go in.
+
+8. **Climb the black shaft.** The tower is hollow: a 2×2 shaft running straight up from Y = 61 to the crown at Y = 106, a blackstone ladder mortared into the east wall. Climb one rung at a time. Place one torch every 10 blocks — 4 torches for the climb. At the checkpoint ledge at (−2700, 86, 2250), stop and plant 2 torches against the wall. Beneath you the shadow dome rolls like weather; above you, the open crown shows sky the color of a bruise. Two phantoms will fold down through the opening, drawn by the stillness of a climber. Shield up, strike, and do not look down. The climb is 45 blocks. The crown is waiting.
+
+9. **Break the sun.** At the crown, the Black Sun hangs over the socket: a lodestone the size of your head, black and humming, its dark beam pouring down from the pedestal at (−2700, 106, 2250) at the world you built. Draw the diamond pickaxe. Break it. The lodestone cracks like a bell, drops as an item into your hand, and the Unlight dies mid-breath — the beam collapses, the dome shreds, and daylight pours into the basin like a held breath released. Take the lodestone; it is the shadow's crown, and you will have use for it. Then, in the empty socket, place the 4 glowstone in the cardinal ring: one north, one east, one south, one west. The first true light that tower has held since the shadow raised it. The Black Beacon is dead. What stands here now is something else.
+
+10. **Win the descent.** Drink the splash potion of Slow Falling, and step off the crown. Drift down past the checkpoint, past the ladder, past the silence of the Warden's grave, and land soft on the basin floor at (−2700, 60, 2250). Walk out through the torn dome, past the four pillars you built, and find your 4 torches at the rim at (−2400, 63, 2300). Stop there and look back. The tower still stands — black, hollow, forever changed — but a small ring of light burns on its crown, a lantern no shadow will ever put out. The basin has stopped drowning. The Unlight is dead, and you killed it by walking into the only fight you ever ran from.
+
+### Success Checklist
+
+- [ ] Long road marched: kit carried from spawn to the drowned basin rim at (−2400, 63, 2300) by midday.
+- [ ] Rim marked: 4 torches planted at the compass points of the basin rim before the dome was entered.
+- [ ] Arena built: four 2×2×2 cobblestone pillars at the compass points around (−2700, 60, 2250), 16 torches lit.
+- [ ] All four gilded binding rings broken — north (2234), east (−2686), south (2266), west (−2714) — and the Unmaker raised deliberately.
+- [ ] Unmaker Warden slain at the arena floor; sculk catalyst recovered from its corpse.
+- [ ] Black tower climbed: shaft ascended from (61) to the crown at (106), torches placed every 10 blocks.
+- [ ] Black Sun lodestone broken with the diamond pickaxe; the dark beam died and the dome shredded.
+- [ ] Crown ring seated: 4 glowstone placed north, east, south, west in the socket at (−2700, 106, 2250).
+- [ ] Survive the descent to the basin rim: at (−2400, 63, 2300), at sunset, look back — the tower's crown is a lantern, and the drowned basin has stopped drowning.
+
+### Missionary Note
+
+*The shadow learned to build by watching you. It is the cruelest compliment you have ever received: it took your Beacon, your columns, your rings of glowstone, and built a negation of them — a tower that mirrors the light block for block and drinks it instead of giving. But a copy is not a source. You can build the shape of a flame and it will still be cold. The shadow can raise a black needle in a drowned basin, but it cannot make the dark give; it can only make it take. That is the whole difference between the dark and the missionary, and you have now seen it written forty-five blocks tall in the southern sky.*
+
+*And you killed the Warden. The city that listens taught you to move without sound; the basin taught you when to be loud. Both lessons were the same lesson, missionary — sound is a tool, and a tool is not a master. You crept through the dark once because you had to. You stood in it today because you chose to. The Unmaker is dead, and the proof is in your pack: a sculk catalyst that will one day seed something, a lodestone crown with nowhere to drain, and a ring of four small lights burning in the chest of a tower that never expected to see them.*
+
+*They will tell you the dark is patient, that it learns, that it builds. Let it. Every tower it raises gives you a high place to plant a light; every Warden it crowns gives you a reason to draw a sword. The shadow thought it was becoming you. It never realized that even the copy is already a site on the mission map. You do not fight the dark, missionary. You out-build it, out-light it, and then you climb what it built and make it yours.*
+
+*— Still commissioned. Still burning.*
+
+---
+
 ## APPENDIX A — READING COORDINATES
 
 The complete cheat sheet for every coordinate in this book.
