@@ -2074,6 +2074,110 @@ The drowned basin lies southeast of the Hollow Mansion's forest, past the last d
 
 ---
 
+## MISSION 22 — THE EMBER CROWN
+
+**Difficulty: Nightmare**
+
+### Mission Briefing
+
+The drowned basin fell silent after you broke the Black Sun and buried the Unmaker, and for nine days the Overworld has known an almost perfect peace. You know what peace means in this campaign, missionary. It is not a victory. It is the shadow doing arithmetic. It counted every mission you have fought — the deep, the trial, the grave, the void, the choir, the basin — and it found the one country you have never taken from it: its own. The Nether. So it went home.
+
+The shadow has made a forge of the far Nether's blackest bastion — a remnant fortress at the edge of a brimstone sea, raised by the Old Builders' enemies and never once claimed by your light. There it does not build a tower. The Black Beacon was a test, a lesson in how you fight. The shadow passed its own test. It learned what the Beacon is made of, and now it is forging the last weapon it will ever need: the Ember Crown, a fist of compressed fire and darkness, hot as a dying sun, which it will carry through your own gate at (500, 64, −400) and set at the foot of your Beacon like a coal in dry grass. The crown will not raid your world. It will burn it from the inside: the Lantern Road going black at the far end, the sky city kindling at its roots, the Beacon guttering to ash, the allays falling silent one by one.
+
+The clock is the third dawn. When it breaks, the crown hardens; a hollow sun is born wearing your world as a shroud. You have no strongroom to draw from this time — a pillager column took what it could in the night, and the shadow has posted watchers on every road you love. The kit below is the entire mission. No netherite armor, no rockets, no second chances. One saddle. One fungus stick. One water bucket. Four glowstone, four obsidian, eight sand — count them twice at spawn, and then go steal a king's crown so you can drown it in light.
+
+### Objective
+
+**Enter the Nether through the existing gate at (500, 64, −400), cross the brimstone sea, break the four Ember Crucibles around the bastion court, slay the Warlord of the Hollow twice on the treasure bridge at (420, 33, 900), take the Ember Crown, carry it back through the gate, and entomb it in a drowned shrine of glowstone on the seafloor at (3300, 34, −3100) before the third dawn.**
+
+### Supplies
+
+| Item | Quantity |
+|---|---|
+| Netherite sword (Looting III) | 1 |
+| Shield | 1 |
+| Diamond chestplate | 1 |
+| Diamond boots (Feather Falling IV) | 1 |
+| Diamond pickaxe | 1 |
+| Bow (Power IV) | 1 |
+| Arrows | 24 |
+| Saddle | 1 |
+| Warped fungus on a stick | 1 |
+| Splash potion of Fire Resistance | 2 |
+| Splash potion of Healing II | 2 |
+| Splash potion of Water Breathing | 1 |
+| Water bucket | 1 |
+| Glowstone | 4 |
+| Obsidian | 4 |
+| Sand | 8 |
+| Torches | 8 |
+| Golden apple | 1 |
+| Cooked beef | 10 |
+
+### Coordinates
+
+| Landmark | X | Y | Z |
+|---|---|---|---|
+| Nether gate (existing) | 500 | 64 | −400 |
+| Nether bunker (existing) | 62 | 64 | −50 |
+| Lava beach / strider stable | 300 | 60 | 380 |
+| Far lava beach | 400 | 60 | 760 |
+| Bastion outer gate | 400 | 33 | 820 |
+| Crucible — northwest | 400 | 36 | 880 |
+| Crucible — northeast | 440 | 36 | 880 |
+| Crucible — southeast | 440 | 36 | 920 |
+| Crucible — southwest | 400 | 36 | 920 |
+| Treasure bridge / Warlord | 420 | 33 | 900 |
+| Deep ocean coast | 3100 | 63 | −3100 |
+| Sea marker / drowned spar | 3300 | 38 | −3100 |
+| Tomb of Dawn | 3300 | 34 | −3100 |
+
+The bastion lies northeast of your old bunker, across an open sea of lava; the striders are the only road. The four Ember Crucibles guard the court from its corner towers, and the treasure bridge is a gilded spine across the center of the fortress, where the shadow's Warlord wears your death as a hat. The tomb is the true destination: a drowned plain four thousand blocks east-southeast of spawn, where a single dead spar rises from the seafloor and the sun-burned water goes deep and cold.
+
+### The Plan
+
+1. **Pack the hollow kit.** At spawn, load exactly what the table allows and nothing else. Count the four glowstone, the four obsidian, and the eight sand onto your hotbar before you move; this mission's whole arithmetic is in the counting. Do not visit the strongroom at (200, 30, 300) — the sight of it will only slow you down. March to the existing gate at (500, 64, −400) and step through to the bunker at (62, 64, −50). You are inside the shadow's home country now, and it is watching every door.
+
+2. **Cross the brimstone sea.** Northeast of the bunker, the lava opens into a sea too wide for any bridge. Walk to the lava beach at (300, 60, 380), where striders wade in the shallows. Plant 2 torches at the beach so your return has eyes. Saddle a strider, hold the warped fungus on a stick, and steer northeast across the open lava to the far beach at (400, 60, 760). Do not dismount in the lava. If a ghast fires, shield against the ball or drink the first fire resistance potion — but keep moving. The sea is 400 blocks wide, the strider is your bridge, and there is no other road.
+
+3. **Read the forge.** From the far beach, the bastion rises at (400, 33, 820) — blackstone walls, gilded banners, the blunt silhouette of a fortress that once meant to be a city. Climb the gilded bridge to the outer gate and plant 2 torches at its foot so the way out stays visible. Do not enter the treasure court yet. Climb the outer stairways and read the court from above: four corner towers at (400, 36, 880), (440, 36, 880), (440, 36, 920), (400, 36, 920), and at the foot of each tower stands an Ember Crucible — a block of crying obsidian set in a frame of gold, weeping black smoke. The crucibles feed the forge; the forge feeds the crown; the crown is worn by the Warlord on the bridge at (420, 33, 900).
+
+4. **Hush the first cry.** Drop to the northwest tower at (400, 36, 880). Two piglin brutes guard it — tall, fast, golden axes in their fists. Meet them at the stairhead: shield up, block their first swings, answer with the netherite sword — two strikes, sidestep, two more. When they fall, break the crying obsidian with the diamond pickaxe. It drops into your hand, and the weeping stops. Pocket the tear — it belongs to light now. The forge dims one degree. Somewhere across the court, a ghast screams. The shadow knows someone is inside.
+
+5. **Knell the four.** Take the crucibles in order, always moving clockwise: northeast at (440, 36, 880), southeast at (440, 36, 920), southwest at (400, 36, 920). The central court between them holds hoglins — chained, tusked, furious. Do not fight the herd. Circle the walls, climb the stairs, kill the single guards, and break each crying obsidian block with the diamond pickaxe. When the fourth falls, the forge's roar dies to a cough, the gold frames go dark, and the Warlord's shields shatter. His crown is yours to take — if you can take it.
+
+6. **Court the Warlord.** Cross to the treasure bridge at (420, 33, 900). The Warlord of the Hollow waits at its center — a piglin brute grown past all courtesy, gilded, crowned with the Ember Crown, swinging a golden axe that burns. Two guard brutes flank him. Fight them at the bridge's pillars, one at a time: the guards first, then the king. When the Warlord dies, his hollow totem snaps and he rises again — the shadow does not allow its kings to stay dead. Kill him twice. The second death drops the Ember Crown: a fist-sized black star, hot as a held breath, humming with everything the forge poured into it. Take it. Every ghast in both valleys now knows your name.
+
+7. **Run the bright road.** The crown is a dinner bell — every hostile within 32 blocks turns and walks at you. Do not fight what you can outrun. From the treasure bridge, take the outer gate at (400, 33, 820), cross the gilded bridge, reach the far beach at (400, 60, 760), and ride your strider back across the brimstone sea. The crown burns in your pack; the second fire resistance potion is for this crossing and for this crossing alone. At the lava beach at (300, 60, 380), let your 2 torches find you, and keep running. The bunker swallows you, the old gate spits you out at (500, 64, −400), and the Overworld sky closes over your head. The first dawn has not yet broken.
+
+8. **Run the long road.** The tomb waits east-southeast: 2,800 blocks from the gate foot to the deep ocean coast at (3100, 63, −3100). The crown keeps calling — skeletons step out of the treeline, pillager patrols cut across the fields, and at dusk phantoms fold down out of a sky that has started to dim. Sprint. Eat the beef on the move. Save the golden apple for the one hit you cannot dodge. Night falls, and the whole dark leans east with you. Do not stop. Do not dig in. The second dawn breaks over your shoulder as you crest the last ridge, and the ocean opens ahead — deep, blue, and cold.
+
+9. **Dive the drowned road.** At the coast (3100, 63, −3100), drink the splash potion of Water Breathing. Swim east to the sea marker at (3300, 63, −3100), where a single drowned spar pierces the waves above a plain of sand at Y = 38. Dive to the spar. At its base, dig a 1×2 shaft straight down to Y = 34, then carve a 3×3 chamber centered at (3300, 34, −3100). Set the 4 glowstone in a cardinal ring on the floor: north (3300, 34, −3099), east (3301, 34, −3100), south (3300, 34, −3101), west (3299, 34, −3100). Place the Ember Crown in the center block. Then seal the chamber: lay the 4 obsidian in a 2×2 cap across the shaft's mouth, and let the 8 sand fall into the shaft behind you as you swim up through the last two blocks. The tomb swallows itself.
+
+10. **Surface at dawn.** Break the surface at (3300, 63, −3100) as the third dawn reddens the east. The Ember Crown is below you — sealed in seawater, ringed in glowstone, capped in obsidian, sand-choked behind a wall that will never open. The shadow's sun cannot rise because its seed is drowned in light. Swim west to the coast at (3100, 63, −3100) and stand on the bluff. The sea is calm. The sky is clean. The crown is still, and the world is still yours.
+
+### Success Checklist
+
+- [ ] Kit counted at spawn and carried intact: 4 glowstone, 4 obsidian, 8 sand, 1 saddle, 1 fungus stick, and nothing wasted.
+- [ ] Brimstone sea crossed twice: strider saddled at (300, 60, 380), both crossings completed on the warped fungus road.
+- [ ] Four Ember Crucibles broken at (400, 36, 880), (440, 36, 880), (440, 36, 920), (400, 36, 920); all four crying obsidian tears recovered.
+- [ ] Warlord of the Hollow slain twice on the treasure bridge at (420, 33, 900); the Ember Crown taken from the second death.
+- [ ] Long road run from (500, 64, −400) to (3100, 63, −3100) before the third dawn, with the crown calling every hostile along the way.
+- [ ] Tomb of Dawn built at (3300, 34, −3100): 4 glowstone ring, crown centered, 4 obsidian cap, 8 sand fill, all sealed under the sea.
+- [ ] Third dawn survived from the bluff at (3100, 63, −3100): the sun rises clean, no ember tide, no smoke on the western sky.
+
+### Missionary Note
+
+*You did not defeat the Ember Crown. You stole it and buried it in the one place the shadow never thought to look: under the deepest water, inside a ring of the oldest light. The shadow builds its crowns to be worn, lifted up, adored; it cannot imagine a power that wants to be hidden. But you know better. You learned it in the city that listens — the glowstone under the sculk, the star in the Beacon's heart, the core beneath the stone. Light is the only treasure that grows in the dark, and you plant it there on purpose.*
+
+*The crown called every dark thing in two worlds to your back, and you ran with it anyway. That is the whole shape of this work, missionary — not the running, but the carrying. You cannot protect the light by standing in front of it. You carry it, you bury it, you put it at the bottom of the sea where no shadow will ever reach, and then you swim up into the dawn and let it do its work forever.*
+
+*They will tell you the third dawn is the hour of the shadow. It is not. The third dawn is the hour of the witness — the one who stood at the waterline with a stolen crown beneath him, watching the sun come up over a world he did not lose. When the shadow forges its last weapon, build a tomb for it. When it crowns its king, drown the crown.*
+
+*— Still commissioned. Still carrying. Still burning.*
+
+---
+
 ## APPENDIX A — READING COORDINATES
 
 The complete cheat sheet for every coordinate in this book.
